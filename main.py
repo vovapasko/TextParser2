@@ -1,16 +1,18 @@
-# Program to extract number
-# of rows using Python
-import os
+import credentials
+from tools.filename_generators import generate_filenames, generate_log_filename
+import logging
 
-import xlrd
-from credentials import home_project_directory, res_dir, res_filename
 
-# Give the location of the file
-loc = (os.path.join(home_project_directory, res_dir, res_filename))
+def start():
+    logfilename = generate_log_filename()
+    logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
+    current_hour = "15"
+    current_date = "25.11.2019"
+    lst = generate_filenames('rnpp0', current_date, current_hour)
+    logging.info(f"Logs are here!")
+    print(lst)
+    pass
 
-wb = xlrd.open_workbook(loc)
-sheet = wb.sheet_by_index(0)
 
-sheet.cell_value(0, 0)
-
-print(sheet.row_values(3))
+if __name__ == '__main__':
+    start()
