@@ -9,7 +9,6 @@ def start():
     current_hour = "15"
     current_date = "25.11.2019"
     lst = generate_filenames('rnpp0', current_date, current_hour)
-    logging.info(f"Logs are here!")
     print(lst)
     pass
 
