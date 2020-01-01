@@ -23,8 +23,9 @@ def handle_float(number):
             new_float_num = float(number.replace(',', '.'))
             return new_float_num
         except ValueError:
-            logging.error("Incorrect value in xlsx file")
+            logging.error("Incorrect value in excel file")
             logging.error(traceback.format_exc())
+            raise Exception('There is xlsx not numerical value in excel file')
 
 
 def xls_file_extractor(filename):
@@ -39,11 +40,14 @@ def xls_file_extractor(filename):
         if row[0] != '':
             provider = row[provider_col]
             index = row[index_col]
-            longitude = handle_float(row[longitude_col])
-            latitude = handle_float(row[latitude_col])
-            altitude = handle_float(row[altitude_col])
+            try:
+                longitude = handle_float(row[longitude_col])
+                latitude = handle_float(row[latitude_col])
+                altitude = handle_float(row[altitude_col])
+                formula = handle_float(row[formula_col])
+            except ValueError:
+                logging.error(f"Problem happened in {i} row of your excel file")
             name_eng = row[name_eng_col]
-            formula = handle_float(row[formula_col])
             row_dict = {index: {"longitude": longitude, "latitude": latitude,
                                 "altitude": altitude, "name_eng": name_eng,
                                 "formula": formula}}
