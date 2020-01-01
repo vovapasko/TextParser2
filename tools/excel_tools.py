@@ -3,6 +3,8 @@ import traceback
 
 import xlrd
 import logging
+
+import credentials
 from credentials import res_filename
 
 longitude_col = 1
@@ -28,11 +30,11 @@ def handle_float(number):
             raise Exception('There is xlsx not numerical value in excel file')
 
 
-def xls_file_extractor(filename):
+def get_xlsfile_data(filename):
     wb = xlrd.open_workbook(filename)
     sheet = wb.sheet_by_index(0)
     rows_amount = sheet.nrows
-    providers = []
+    providers = {}
     provider_data = []
     provider = ''
     for i in range(2, rows_amount):
@@ -53,12 +55,9 @@ def xls_file_extractor(filename):
                                 "formula": formula}}
             provider_data.append(row_dict)
         elif row[0] == '' and len(provider_data) != 0:
-            providers.append({provider: provider_data})
+            providers[provider] = provider_data
             provider_data = []
         if i == rows_amount - 1:
-            providers.append({provider: provider_data})
+            providers[provider] = provider_data
     return providers
 
-
-data = xls_file_extractor(res_filename)
-print()
