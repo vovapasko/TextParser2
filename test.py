@@ -1,15 +1,17 @@
 import logging
-import pathlib
 
 import credentials
-from file_parser import parse
+from files_parser.global_parser import parse
 from tools import excel_tools
-from tools.filename_generators import generate_filenames
+from tools.filename_generators import generate_filenames, generate_log_filename
 
 
 def run(test_key, date, hour, test_filedir):
     current_hour = hour
     current_date = date
+    logfilename = generate_log_filename()
+    logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
+    logging.info("Started test mode")
     data = excel_tools.get_xlsfile_data(credentials.res_filename)
     logging.info(f"Data extracted from {credentials.res_filename} successfully")
     filenames = {}
