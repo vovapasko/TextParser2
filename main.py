@@ -1,5 +1,5 @@
 import credentials
-from files_parser.single_file_parser import parse
+from files_parser.global_parser import parse
 from tools import excel_tools
 from tools.filename_generators import generate_filenames, generate_log_filename
 import logging

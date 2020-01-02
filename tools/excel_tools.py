@@ -4,9 +4,6 @@ import traceback
 import xlrd
 import logging
 
-import credentials
-from credentials import res_filename
-
 longitude_col = 1
 latitude_col = 2
 altitude_col = 3
@@ -60,4 +57,3 @@ def get_xlsfile_data(filename):
         if i == rows_amount - 1:
             providers[provider] = provider_data
     return providers
-

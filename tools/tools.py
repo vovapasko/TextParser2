@@ -13,6 +13,7 @@ def handle_hours(hour):
         return "0" + str(hour)
     return hour
 
+
 def generate_time_intervals(hour):
     """
     returns list of hours in format
@@ -24,6 +25,5 @@ def generate_time_intervals(hour):
         str_minutes = format_minutes(i)
         string = f"{hour}_{str_minutes}_00"
         hours.append(string)
-    hours.append(f"{handle_hours(int(hour) + 1)}_00_00") # add the next hour
+    hours.append(f"{handle_hours(int(hour) + 1)}_00_00")  # add the next hour
     return hours
-

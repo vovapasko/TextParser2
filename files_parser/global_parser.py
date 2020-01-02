@@ -1,12 +1,10 @@
 import logging
 
-from files_parser.single_file_parser import parse_file
+from files_parser.parser_tools import extract_data_from_file
 
 
 def parse(filename_dir, filenames, data):
-    global_data = {}
-    for element in filenames:
-        filename = str(filename_dir / (element + '.xml'))
-        converted_data = parse_file(filename)
-        global_data[filename] = converted_data
-    print()
+    converted_data = extract_data_from_file(filename_dir, filenames)
+    logging.info(f"The data was parsed from {len(filenames)} files")
+    for i in range(len(filenames)):
+        logging.info(f"{i + 1}. {filenames[i]}")
