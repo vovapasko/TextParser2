@@ -16,7 +16,7 @@ def run(test_key, date, hour, test_filedir):
     logging.info(f"Data extracted from {credentials.res_filename} successfully")
     filenames = {}
     filenames[test_key] = (generate_filenames(test_key, current_date, current_hour))
-    parse(test_filedir, filenames[test_key], data[test_key])
+    parse(test_filedir, filenames[test_key], data[test_key], test_key)
 
 
 if __name__ == '__main__':

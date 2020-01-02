@@ -32,7 +32,7 @@ def get_xlsfile_data(filename):
     sheet = wb.sheet_by_index(0)
     rows_amount = sheet.nrows
     providers = {}
-    provider_data = []
+    provider_data = {}
     provider = ''
     for i in range(2, rows_amount):
         row = sheet.row_values(i)
@@ -47,13 +47,11 @@ def get_xlsfile_data(filename):
             except ValueError:
                 logging.error(f"Problem happened in {i} row of your excel file")
             name_eng = row[name_eng_col]
-            row_dict = {index: {"longitude": longitude, "latitude": latitude,
-                                "altitude": altitude, "name_eng": name_eng,
-                                "formula": formula}}
-            provider_data.append(row_dict)
+            provider_data[index] = {"longitude": longitude, "latitude": latitude,
+                                    "altitude": altitude, "name_eng": name_eng, "formula": formula}
         elif row[0] == '' and len(provider_data) != 0:
             providers[provider] = provider_data
-            provider_data = []
+            provider_data = {}
         if i == rows_amount - 1:
             providers[provider] = provider_data
     return providers
