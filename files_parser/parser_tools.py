@@ -44,3 +44,11 @@ def log_uncommon_elements(excel_data, converted_data):
 
 def get_middle_value(values):
     return float("%.2f" % numpy.mean(values))  # finds mean and rounds to 2 signs after dot
+
+
+def get_all_keys_from_dict(param_dict):
+    tmp_keys = []
+    for file_key, file_value in param_dict.items():
+        for key, value in file_value.items():
+            tmp_keys.append(key)
+    return set(tmp_keys)
