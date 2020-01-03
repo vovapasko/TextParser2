@@ -5,13 +5,12 @@ from files_parser.parser_tools import extract_data_from_file, get_middle_value, 
     get_all_keys_from_dict
 
 
-def get_converted_xml_data(python_xml_data: dict) -> dict:
-    # todo there is bug somewhere here
+def get_converted_xml_data(file_values: dict) -> dict:
+    # todo there is a bug somewhere here
     new_converted_data = {}
-    for file_key, file_values in python_xml_data.items():
-        for key, values in file_values.items():
-            middle_value = get_middle_value(values)
-            new_converted_data[key] = middle_value
+    for key, values in file_values.items():
+        middle_value = get_middle_value(values)
+        new_converted_data[key] = middle_value
     return new_converted_data
 
 
@@ -51,7 +50,9 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
             excel_value = excel_data[index]
             if correct_interval_value(interval_value, excel_value):
                 full_interval_dict[index].append(interval_value)
-        print()
+            else:
+                pass
+    return full_interval_dict
 
 
 def get_handled_data(excel_data, python_xml_data):
@@ -60,7 +61,7 @@ def get_handled_data(excel_data, python_xml_data):
     try:
         for file_key, file_values in python_xml_data.items():
             logging.info(f"Start handling data in converted Python data in {file_key.stem} file")
-            one_file_converted_xml_data = get_converted_xml_data(python_xml_data)
+            one_file_converted_xml_data = get_converted_xml_data(file_values)
             full_converted_xml_data[file_key] = one_file_converted_xml_data
         handled_xml_data = handle_converted_xml_data(full_converted_xml_data, excel_data)
     except Exception:
