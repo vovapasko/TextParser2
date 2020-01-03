@@ -1,12 +1,13 @@
 import logging
 import traceback
 
+from files_parser.validation_constants import boundary_interval_value
 from files_parser.parser_tools import extract_data_from_file, get_middle_value, \
     get_all_keys_from_dict
+from files_parser.validation import correct_interval_value
 
 
 def get_converted_xml_data(file_values: dict) -> dict:
-    # todo there is a bug somewhere here
     new_converted_data = {}
     for key, values in file_values.items():
         middle_value = get_middle_value(values)
@@ -21,10 +22,6 @@ def log_uncommon_elements(excel_data_keys_set, data_to_handle_keys_set):
         f" These indexes won't be included in final .xml file")
     for element, i in zip(difference, range(len(difference))):
         logging.info(f"{i + 1}. {element}")
-
-
-def correct_interval_value(interval_value, excel_value):
-    return True
 
 
 def init_dict(keys) -> dict:
@@ -51,7 +48,10 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
             if correct_interval_value(interval_value, excel_value):
                 full_interval_dict[index].append(interval_value)
             else:
-                pass
+                logging.warning(
+                    f"Interval value {interval_value} is more than boundary value {boundary_interval_value}")
+                logging.warning(f"This value is in index - {index} and in file - {file_key.stem}")
+                logging.warning("This value won't be included in result xml file")
     return full_interval_dict
 
 
