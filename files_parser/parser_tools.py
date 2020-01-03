@@ -4,6 +4,8 @@ import logging
 
 import numpy
 
+from exceptions import NoSuchXmlFilesException
+
 
 def parse_file(file):
     data = {}
@@ -27,6 +29,8 @@ def extract_data_from_file(filename_dir, filenames):
         filename = (filename_dir / (element + '.xml'))
         converted_data = parse_file(filename)
         global_data[filename] = converted_data
+    if all(value is None for value in global_data.values()):
+        raise NoSuchXmlFilesException("There are no xml files with this provider")
     return global_data
 
 

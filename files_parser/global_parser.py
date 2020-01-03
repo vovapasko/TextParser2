@@ -1,6 +1,7 @@
 import logging
 import traceback
 
+from exceptions import NoSuchXmlFilesException
 from files_parser.validation_constants import boundary_interval_value, boundary_whole_interval_value
 from files_parser.parser_tools import extract_data_from_file, get_list_middle_value, \
     get_all_keys_from_dict, find_mean_of_intervals
@@ -93,15 +94,22 @@ def get_handled_data(excel_data, python_xml_data):
 
 def parse(filename_dir, filenames, data, provider_key):
     logging.info(f"Start getting data for provider {provider_key}")
-    python_xml_data = extract_data_from_file(filename_dir, filenames)
-    logging.info(f"The data was parsed from {len(filenames)} files")
-    for i in range(len(filenames)):
-        logging.info(f"{i + 1}. {filenames[i]}")
     try:
-        handled_data = get_handled_data(data, python_xml_data)
-        logging.info(f"Data from provider '{provider_key}' handled successfully")
-        return handled_data
-    except Exception:
-        logging.error("Error happened while handling data")
-        logging.error(traceback.format_exc())
-        raise Exception
+        python_xml_data = extract_data_from_file(filename_dir, filenames)
+        logging.info(f"The data was parsed from {len(filenames)} files")
+        for i in range(len(filenames)):
+            logging.info(f"{i + 1}. {filenames[i]}")
+        try:
+            handled_data = get_handled_data(data, python_xml_data)
+            logging.info(f"Data from provider '{provider_key}' handled successfully")
+            return handled_data
+        except Exception:
+            logging.error("Error happened while handling data")
+            logging.error(traceback.format_exc())
+            raise Exception
+    except NoSuchXmlFilesException:
+        logging.critical("There are no files with the next names.")
+        for i in range(len(filenames)):
+            logging.error(f"{i + 1}. {filenames[i]}")
+        logging.error("This may happen because there are no such a files by your provider name.")
+        logging.error(f"Check whether you have data from provider '{provider_key}'")

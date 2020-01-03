@@ -21,4 +21,4 @@ def run(test_key, date, hour, test_filedir):
 
 if __name__ == '__main__':
     test_filedir = credentials.home_project_directory / "rubbish"
-    run('snpp0', "25.11.2019", "08", test_filedir)
+    run('znpp0', "25.11.2019", "08", test_filedir)
