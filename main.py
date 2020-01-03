@@ -8,7 +8,7 @@ import logging
 def start():
     logfilename = generate_log_filename()
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
-    current_hour = "15"
+    current_hour = "08"
     current_date = "25.11.2019"
     data = excel_tools.get_xlsfile_data(credentials.res_filename)
     logging.info(f"Data extracted from {credentials.res_filename} successfully")

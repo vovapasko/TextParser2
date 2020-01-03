@@ -30,7 +30,7 @@ def extract_data_from_file(filename_dir, filenames):
     return global_data
 
 
-def get_middle_value(values):
+def get_list_middle_value(values: list):
     return numpy.mean(values)  # finds mean and rounds to 2 signs after dot
 
 
@@ -40,3 +40,11 @@ def get_all_keys_from_dict(param_dict):
         for key, value in file_value.items():
             tmp_keys.append(key)
     return set(tmp_keys)
+
+
+def find_mean_of_intervals(param_dict):
+    """This method finds mean value for each sublist in every index """
+    return_dict = {}
+    for key, value in param_dict.items():
+        return_dict[key] = get_list_middle_value(value)
+    return return_dict
