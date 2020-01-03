@@ -11,7 +11,7 @@ def parse_file(file):
         for child in root:
             values = []
             for subchild in child:
-                values.append(subchild.attrib['v'])
+                values.append(float(subchild.attrib['v']))
             data[child.attrib['id']] = values
         return data
     except Exception:

@@ -5,6 +5,7 @@ from files_parser.parser_tools import extract_data_from_file
 
 
 def handle_data(excel_data, converted_data):
+    # todo think how to handle these data
     try:
         for file_key, file_values in converted_data.items():
             logging.info(f"Start handling data in converted Python data in {file_key} file")
