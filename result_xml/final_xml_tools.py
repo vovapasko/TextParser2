@@ -154,3 +154,42 @@ def format_measurements_subtree(measurements_list, start_date, start_hour):
             value_units = xml.SubElement(measurement, "mon:Value", Unit="Sv/s").text = format(measurement_value, '.3g')
     measurements_tree = xml.ElementTree(measurement_root)
     return measurements_tree
+
+
+def format_excel_data(excel_data):
+    """This function changes structure of dict from
+        data = {provider_key1: {index_key11: data11}, ..., {index_key12: data12},
+                ...
+                provider_keyN: {index_keyN1: dataN1, ..., {index_keyNN: dataNN}}
+        }
+        to dict
+        data = {index_key11: data11, index_keyNN: dataNN}
+    """
+
+    pass
+
+
+def get_nested_excel_element(excel_data, index_key):
+    element = []
+    for provider_key in excel_data:
+        tmp = excel_data[provider_key].get(index_key)
+        if tmp is not None:
+            return tmp
+    return None
+
+
+def format_locations_subtree(measurement_data, excel_data):
+    formatted_excel_data = format_excel_data(excel_data)
+    locations_root = xml.Element("loc:Locations")
+    for measurement_element in measurement_data:
+        for index_key, tmp in measurement_element.items():
+            excel_station = get_nested_excel_element(excel_data, index_key)
+            location = xml.SubElement(locations_root, "loc:Location", id=(index_key))
+            stantion_name = xml.SubElement(location, "loc:Name").text = excel_station.get('name_eng')
+            geo_coord = xml.SubElement(location, "loc:GeographicCoordinates")
+            latitude = xml.SubElement(geo_coord, "loc:Latitude").text = str(excel_station.get("latitude"))
+            longitude = xml.SubElement(geo_coord, "loc:Longitude").text = str(excel_station.get(
+                "longitude"))
+            height = xml.SubElement(geo_coord, "loc:Height", Above="Sea", Unit="m").text = str(excel_station.get("altitude"))
+    locations_tree = xml.ElementTree(locations_root)
+    return locations_tree
