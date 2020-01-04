@@ -6,10 +6,10 @@ import traceback
 
 import credentials
 from result_xml.final_xml_tools import format_header, format_identification_subtree, hardcode_identification_subtree, \
-    combine_xml
+    combine_xml, format_measurements_subtree
 
 
-def get_result_xml_tree(data: list, excel_data):
+def get_result_xml_tree(measurement_data: list, excel_data, start_measuring_date, start_measuring_hour):
     """This function formats xml root element with 4 subtrees:
     header, identification, measurements and locations  """
     header_subtree = format_header()
@@ -20,5 +20,6 @@ def get_result_xml_tree(data: list, excel_data):
         traceback.print_exc()
         identification_subtree = hardcode_identification_subtree()
         logging.info("Created default id:Identification xml tree")
-    result_tree = combine_xml(header_subtree, [identification_subtree])
+    measurements_subtree = format_measurements_subtree(measurement_data, start_measuring_date, start_measuring_hour)
+    result_tree = combine_xml(header_subtree, [identification_subtree, measurements_subtree])
     return result_tree

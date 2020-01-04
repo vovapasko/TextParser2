@@ -1,5 +1,5 @@
 import traceback
-import xml.etree.ElementTree as et
+import xml.etree.ElementTree as xml
 import logging
 
 import numpy
@@ -10,7 +10,7 @@ from exceptions import NoSuchXmlFilesException
 def parse_file(file):
     data = {}
     try:
-        tree = et.parse(file)
+        tree = xml.parse(file)
         root = tree.getroot()
         for child in root:
             values = []

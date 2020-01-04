@@ -34,7 +34,7 @@ def start():
         logging.warning(f"There is {len(bad_providers)} provider(s) which data program can't parse: ")
         for i, provider in zip(range(len(bad_providers)), bad_providers):
             logging.warning(f"{i + 1}. {provider}")
-    result_xlm = get_result_xml_tree(handled_data, excel_data)
+    result_xlm = get_result_xml_tree(handled_data, excel_data, current_date, current_hour)
 
 
 if __name__ == '__main__':

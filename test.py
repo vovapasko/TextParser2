@@ -20,7 +20,7 @@ def run(test_key, date, hour, test_filedir):
     filenames[test_key] = generate_filenames(test_key, current_date, current_hour)
     handled_data = list()
     handled_data.append(parse(test_filedir, filenames[test_key], excel_data[test_key], test_key))
-    final_xml = get_result_xml_tree(handled_data, excel_data)
+    final_xml = get_result_xml_tree(handled_data, excel_data, date, hour)
     logging.info("Successfully created result xml file")
     try:
         final_xml.write(credentials.output_directory / 'test.xml', encoding="utf-8", xml_declaration=True, method="xml")

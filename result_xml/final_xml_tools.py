@@ -1,6 +1,7 @@
 import uuid
 import xml.etree.ElementTree as xml
 from datetime import datetime
+from tools.tools import format_hours
 
 xmlms = {'base': "http://www.iaea.org/2012/IRIX/Format/Base",
          'html': "http://www.w3.org/1999/xhtml",
@@ -18,13 +19,14 @@ def format_header():
     return root
 
 
-def combine_xml(root: xml.Element, trees:list):
+def combine_xml(root: xml.Element, trees: list):
     first = root
     for tree in trees:
         data = tree.getroot()
         first.append(data)
     final_tree = xml.ElementTree(first)
     return final_tree
+
 
 def format_time(given_time):
     date = str(given_time.date())
@@ -115,3 +117,40 @@ def hardcode_identification_subtree():
     org1_description = xml.SubElement(org1_contacts_info, "base:Description").text = "Data originator for this report"
     id_tree = xml.ElementTree(id_root)
     return id_tree
+
+
+def create_time(date, hour):
+    final_date = date
+    final_hour = f"{format_hours(int(hour) + 1)}:05:00"
+    return final_date + "T" + final_hour + "Z"
+
+
+def handle_end_time(date, hour):
+    """if the time is 23 o'click this function converts it to 00 and date to the next day"""
+
+    pass
+
+
+# todo this function is not provided by correct handling end time of measurements!!!
+def format_measurements_subtree(measurements_list, start_date, start_hour):
+    tmp_start_date = datetime.strptime(start_date, '%d.%m.%Y').date()
+    start_datetime = datetime(tmp_start_date.year, tmp_start_date.month, tmp_start_date.day, int(start_hour), 0, 0)
+    end_datetime = datetime(start_datetime.year, start_datetime.month, start_datetime.day, int(start_hour) + 1, 0, 0, 0)
+    start_time = format_time(start_datetime)
+    # todo complete the function in next line
+    # handled_end_date, handled_end_hour = handle_end_time(start_date, start_hour)
+    # todo when the task above will be completed, replace the line below with the correct end_date and end_hour
+    end_time = format_time(end_datetime)
+    measurement_root = xml.Element("mon:Measurements", ValidAt=create_time(start_date, start_hour))
+    dose_rate = xml.SubElement(measurement_root, "mon:DoseRateType").text = "Gamma"
+    measurement_period = xml.SubElement(measurement_root, "mon:MeasuringPeriod")
+    start_m_time = xml.SubElement(measurement_period, "mon:StartTime").text = format_time(start_datetime)
+    end_m_time = xml.SubElement(measurement_period, "mon:EndTime").text = format_time(end_datetime)
+    measurements = xml.SubElement(measurement_root, "mon:Measurements")
+    for measurement_element in measurements_list:
+        for index_key, measurement_value in measurement_element.items():
+            measurement = xml.SubElement(measurements, "mon:Measurement")
+            measurement_location = xml.SubElement(measurement, "loc:Location", ref=(index_key))
+            value_units = xml.SubElement(measurement, "mon:Value", Unit="Sv/s").text = format(measurement_value, '.3g')
+    measurements_tree = xml.ElementTree(measurement_root)
+    return measurements_tree
