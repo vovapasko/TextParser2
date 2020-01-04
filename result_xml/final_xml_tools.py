@@ -18,12 +18,18 @@ def format_header():
     return root
 
 
-def combine_xml(root: xml.Element, trees: list):
+def combine_xml(root: xml.Element, trees:list):
     first = root
     for tree in trees:
         data = tree.getroot()
         first.append(data)
-    return first
+    final_tree = xml.ElementTree(first)
+    return final_tree
+
+def format_time(given_time):
+    date = str(given_time.date())
+    time = str(given_time.strftime("%X"))
+    return date + "T" + time + "Z"
 
 
 def format_identification_subtree(file):
@@ -32,7 +38,7 @@ def format_identification_subtree(file):
     id_root = xml.Element("id:Identification")
     org_reporting = xml.SubElement(id_root, "id:OrganisationReporting").text = file_data.find(
         "OrganisationReporting").text
-    time = datetime.now()
+    time = format_time(datetime.now())
     report_datetime = xml.SubElement(id_root, "id:DateAndTimeOfCreation").text = str(time)
     report_context = xml.SubElement(id_root, "id:ReportContext").text = file_data.find("ReportContext").text
     report_sequence_number = xml.SubElement(id_root, "id:SequenceNumber").text = file_data.find(

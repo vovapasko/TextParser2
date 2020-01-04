@@ -1,4 +1,5 @@
 import logging
+import traceback
 
 import credentials
 from files_parser.global_parser import parse
@@ -20,6 +21,15 @@ def run(test_key, date, hour, test_filedir):
     handled_data = list()
     handled_data.append(parse(test_filedir, filenames[test_key], excel_data[test_key], test_key))
     final_xml = get_result_xml_tree(handled_data, excel_data)
+    logging.info("Successfully created result xml file")
+    try:
+        final_xml.write(credentials.output_directory / 'test.xml', encoding="utf-8", xml_declaration=True, method="xml")
+        logging.info(f"Successfully created the - {credentials.output_directory / 'test.xml'} xml file")
+    except Exception:
+        logging.error("Error while creating result xml file")
+        logging.error(traceback.format_exc())
+        traceback.print_exc()
+
 
 
 if __name__ == '__main__':

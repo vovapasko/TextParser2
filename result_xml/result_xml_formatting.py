@@ -5,7 +5,8 @@ import logging
 import traceback
 
 import credentials
-from result_xml.final_xml_tools import format_header, format_identification_subtree, hardcode_identification_subtree
+from result_xml.final_xml_tools import format_header, format_identification_subtree, hardcode_identification_subtree, \
+    combine_xml
 
 
 def get_result_xml_tree(data: list, excel_data):
@@ -17,5 +18,7 @@ def get_result_xml_tree(data: list, excel_data):
     except Exception:
         logging.error("Error while creating id:Identification xml tree")
         traceback.print_exc()
-        id_xml_tree = hardcode_identification_subtree()
+        identification_subtree = hardcode_identification_subtree()
         logging.info("Created default id:Identification xml tree")
+    result_tree = combine_xml(header_subtree, [identification_subtree])
+    return result_tree
