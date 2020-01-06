@@ -1,5 +1,8 @@
-# Program to extract number
-# of rows using Python
+import logging
+import traceback
+from datetime import timedelta, datetime
+
+import credentials
 
 
 def format_minutes(minutes):
@@ -14,16 +17,21 @@ def format_hours(hour: int):
     return hour
 
 
-def generate_time_intervals(hour):
-    """
-    returns list of hours in format
-    hour_00_00, hour_05_00, ... , hour_55_00, hour+1_00_00
-    """
-    slices_amount = int(60 / 12)  # take time every 5 minutes
-    hours = []
-    for i in range(0, 60, slices_amount):
-        str_minutes = format_minutes(i)
-        string = f"{hour}_{str_minutes}_00"
-        hours.append(string)
-    hours.append(f"{format_hours(int(hour) + 1)}_00_00")  # add the next hour
-    return hours
+def write_xml_to_file(final_xml, write_to_path):
+    try:
+        final_xml.write(write_to_path, encoding="utf-8", xml_declaration=True, method="xml")
+        logging.info(f"Successfully created the - {write_to_path} xml file")
+    except Exception:
+        logging.error("Error while creating result xml file")
+        logging.error(traceback.format_exc())
+        traceback.print_exc()
+
+
+def split_datetime_to_deltas(start_datetime):
+    minutedelta = timedelta(minutes=5)
+    date_x = start_datetime
+    five_min_timestamps = [date_x]
+    while date_x < start_datetime + timedelta(hours=1):
+        date_x += minutedelta
+        five_min_timestamps.append(date_x)
+    return five_min_timestamps
