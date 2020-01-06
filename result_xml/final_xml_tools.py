@@ -1,6 +1,6 @@
 import uuid
 import xml.etree.ElementTree as xml
-from datetime import datetime
+from datetime import datetime, timedelta
 from tools.tools import format_hours
 
 xmlms = {'base': "http://www.iaea.org/2012/IRIX/Format/Base",
@@ -119,29 +119,10 @@ def hardcode_identification_subtree():
     return id_tree
 
 
-def create_time(date, hour):
-    final_date = date
-    final_hour = f"{format_hours(int(hour) + 1)}:05:00"
-    return final_date + "T" + final_hour + "Z"
-
-
-def handle_end_time(date, hour):
-    """if the time is 23 o'click this function converts it to 00 and date to the next day"""
-
-    pass
-
-
-# todo this function is not provided by correct handling end time of measurements!!!
-def format_measurements_subtree(measurements_list, start_date, start_hour):
-    tmp_start_date = datetime.strptime(start_date, '%d.%m.%Y').date()
-    start_datetime = datetime(tmp_start_date.year, tmp_start_date.month, tmp_start_date.day, int(start_hour), 0, 0)
-    end_datetime = datetime(start_datetime.year, start_datetime.month, start_datetime.day, int(start_hour) + 1, 0, 0, 0)
-    start_time = format_time(start_datetime)
-    # todo complete the function in next line
-    # handled_end_date, handled_end_hour = handle_end_time(start_date, start_hour)
-    # todo when the task above will be completed, replace the line below with the correct end_date and end_hour
-    end_time = format_time(end_datetime)
-    measurement_root = xml.Element("mon:Measurements", ValidAt=create_time(start_date, start_hour))
+def format_measurements_subtree(measurements_list, start_measuring_timestamp):
+    start_datetime = start_measuring_timestamp
+    end_datetime = start_measuring_timestamp + timedelta(hours=1)
+    measurement_root = xml.Element("mon:Measurements", ValidAt=format_time(end_datetime + timedelta(minutes=5)))
     dose_rate = xml.SubElement(measurement_root, "mon:DoseRateType").text = "Gamma"
     measurement_period = xml.SubElement(measurement_root, "mon:MeasuringPeriod")
     start_m_time = xml.SubElement(measurement_period, "mon:StartTime").text = format_time(start_datetime)
@@ -190,6 +171,7 @@ def format_locations_subtree(measurement_data, excel_data):
             latitude = xml.SubElement(geo_coord, "loc:Latitude").text = str(excel_station.get("latitude"))
             longitude = xml.SubElement(geo_coord, "loc:Longitude").text = str(excel_station.get(
                 "longitude"))
-            height = xml.SubElement(geo_coord, "loc:Height", Above="Sea", Unit="m").text = str(excel_station.get("altitude"))
+            height = xml.SubElement(geo_coord, "loc:Height", Above="Sea", Unit="m").text = str(
+                excel_station.get("altitude"))
     locations_tree = xml.ElementTree(locations_root)
     return locations_tree
