@@ -30,3 +30,8 @@ def generate_log_filename():
     new_str = filename.replace(' ', '_').replace(':', '_')
     strdaw = logs_dir / new_str
     return strdaw
+
+
+def generate_output_xml_filename(current_datetime):
+    new_str = str(current_datetime).replace(' ', '_').replace(':', '_')
+    return new_str + ".xml"

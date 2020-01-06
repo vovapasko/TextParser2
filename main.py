@@ -3,9 +3,10 @@ from datetime import datetime
 import credentials
 from files_parser.global_parser import parse
 from tools import excel_tools
-from tools.filename_generators import generate_filenames, generate_log_filename
+from tools.filename_generators import generate_filenames, generate_log_filename, generate_output_xml_filename
 import logging
 from result_xml.result_xml_formatting import get_result_xml_tree
+from tools.tools import write_xml_to_file
 
 current_datetime = datetime.now()
 custom_hour = 8
@@ -41,6 +42,7 @@ def start(current_datetime):
         for i, provider in zip(range(len(bad_providers)), bad_providers):
             logging.warning(f"{i + 1}. {provider}")
     result_xlm = get_result_xml_tree(handled_data, excel_data, current_datetime)
+    write_xml_to_file(result_xlm, credentials.output_directory / generate_output_xml_filename(current_datetime))
 
 
 if __name__ == '__main__':
