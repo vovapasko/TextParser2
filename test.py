@@ -9,7 +9,8 @@ from tools.filename_generators import generate_filenames, generate_log_filename,
 from result_xml.result_xml_formatting import get_result_xml_tree
 from tools.tools import write_xml_to_file
 
-custom_hour = 8
+program_start_time = datetime.now()
+custom_hour = 9
 custom_year = 2019
 custom_month = 11
 custom_day = 25
@@ -17,7 +18,7 @@ custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0
 
 
 def start(test_key, custom_datetime, test_filedir):
-    logfilename = generate_log_filename()
+    logfilename = generate_log_filename(program_start_time)
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
     logging.debug("Started test mode")
     excel_data = excel_tools.get_xlsfile_data(credentials.res_filename)
@@ -28,7 +29,7 @@ def start(test_key, custom_datetime, test_filedir):
     handled_data.append(parse(test_filedir, filenames[test_key], excel_data[test_key], test_key))
     final_xml = get_result_xml_tree(handled_data, excel_data, custom_datetime)
     logging.info("Successfully created result xml file")
-    write_xml_to_file(final_xml, credentials.output_directory / generate_output_xml_filename(custom_datetime))
+    write_xml_to_file(final_xml, credentials.output_directory / generate_output_xml_filename(program_start_time))
 
 
 if __name__ == '__main__':
