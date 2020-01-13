@@ -9,7 +9,7 @@ from result_xml.result_xml_formatting import get_result_xml_tree
 from tools.tools import write_xml_to_file
 
 current_datetime = datetime.now()
-custom_hour = 8
+custom_hour = 9
 custom_year = 2019
 custom_month = 11
 custom_day = 25
@@ -20,7 +20,6 @@ handled_data_providers = []
 bad_providers = []
 
 
-# todo change logic of measuring hours. Program should handle data between [hour-1; hour] not like now [hour; hour+1]
 def start(current_datetime=custom_datetime):
     logfilename = generate_log_filename()
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)

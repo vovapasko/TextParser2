@@ -27,11 +27,11 @@ def write_xml_to_file(final_xml, write_to_path):
         traceback.print_exc()
 
 
-def split_datetime_to_deltas(start_datetime):
+def split_datetime_to_deltas(end_datetime):
     minutedelta = timedelta(minutes=5)
-    date_x = start_datetime
+    date_x = end_datetime - timedelta(hours=1)
     five_min_timestamps = [date_x]
-    while date_x < start_datetime + timedelta(hours=1):
+    while date_x < end_datetime:
         date_x += minutedelta
         five_min_timestamps.append(date_x)
     return five_min_timestamps

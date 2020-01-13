@@ -119,9 +119,9 @@ def hardcode_identification_subtree():
     return id_tree
 
 
-def format_measurements_subtree(measurements_list, start_measuring_timestamp):
-    start_datetime = start_measuring_timestamp
-    end_datetime = start_measuring_timestamp + timedelta(hours=1)
+def format_measurements_subtree(measurements_list, end_measuring_timestamp):
+    start_datetime = end_measuring_timestamp - timedelta(hours=1)
+    end_datetime = end_measuring_timestamp
     measurement_root = xml.Element("mon:Measurements", ValidAt=format_time(end_datetime + timedelta(minutes=5)))
     dose_rate = xml.SubElement(measurement_root, "mon:DoseRateType").text = "Gamma"
     measurement_period = xml.SubElement(measurement_root, "mon:MeasuringPeriod")
