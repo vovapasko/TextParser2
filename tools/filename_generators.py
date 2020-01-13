@@ -25,13 +25,13 @@ def generate_filenames(index, given_datetime: datetime):
     return filenames
 
 
-def generate_log_filename():
-    filename = datetime.now().strftime("%Y-%m-%d %X") + '.log'
+def generate_log_filename(par_program_start_time):
+    filename = par_program_start_time.strftime("%Y-%m-%d %X") + '.log'
     new_str = filename.replace(' ', '_').replace(':', '_')
     strdaw = logs_dir / new_str
     return strdaw
 
 
-def generate_output_xml_filename(current_datetime):
-    new_str = str(current_datetime).replace(' ', '_').replace(':', '_')
+def generate_output_xml_filename(par_program_start_time):
+    new_str = par_program_start_time.strftime("%Y-%m-%d %X").replace(' ', '_').replace(':', '_')
     return new_str + ".xml"

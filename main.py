@@ -8,7 +8,7 @@ import logging
 from result_xml.result_xml_formatting import get_result_xml_tree
 from tools.tools import write_xml_to_file
 
-current_datetime = datetime.now()
+program_start_time = current_datetime = datetime.now()
 custom_hour = 9
 custom_year = 2019
 custom_month = 11
@@ -21,7 +21,7 @@ bad_providers = []
 
 
 def start(current_datetime=custom_datetime):
-    logfilename = generate_log_filename()
+    logfilename = generate_log_filename(program_start_time)
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
     excel_data = excel_tools.get_xlsfile_data(credentials.res_filename)
     logging.debug(f"Data extracted from {credentials.res_filename} successfully")
@@ -42,7 +42,7 @@ def start(current_datetime=custom_datetime):
         for i, provider in zip(range(len(bad_providers)), bad_providers):
             logging.warning(f"{i + 1}. {provider}")
     result_xlm = get_result_xml_tree(handled_data, excel_data, current_datetime)
-    write_xml_to_file(result_xlm, credentials.output_directory / generate_output_xml_filename(current_datetime))
+    write_xml_to_file(result_xlm, credentials.output_directory / generate_output_xml_filename(program_start_time))
 
 
 if __name__ == '__main__':
