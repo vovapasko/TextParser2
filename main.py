@@ -20,13 +20,13 @@ handled_data_providers = []
 bad_providers = []
 
 
-def start(current_datetime=custom_datetime):
+def start(par_datetime=current_datetime):
     logfilename = generate_log_filename(program_start_time)
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
     excel_data = excel_tools.get_xlsfile_data(credentials.res_filename)
     logging.debug(f"Data extracted from {credentials.res_filename} successfully")
     for provider_key, value in excel_data.items():
-        filenames[provider_key] = (generate_filenames(provider_key, current_datetime))
+        filenames[provider_key] = (generate_filenames(provider_key, par_datetime))
     for provider_key, value in excel_data.items():
         tmp = parse(credentials.path_to_files, filenames[provider_key], value, provider_key)
         if tmp is not None:
@@ -41,9 +41,9 @@ def start(current_datetime=custom_datetime):
         logging.warning(f"There is {len(bad_providers)} provider(s) which data program can't parse: ")
         for i, provider in zip(range(len(bad_providers)), bad_providers):
             logging.warning(f"{i + 1}. {provider}")
-    result_xlm = get_result_xml_tree(handled_data, excel_data, current_datetime)
+    result_xlm = get_result_xml_tree(handled_data, excel_data, par_datetime)
     write_xml_to_file(result_xlm, credentials.output_directory / generate_output_xml_filename(program_start_time))
 
 
 if __name__ == '__main__':
-    start()
+    start(par_datetime=custom_datetime)  # remove a parameter if you want a custom datetime
