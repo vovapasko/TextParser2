@@ -59,7 +59,6 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
                 logging.warning("This value won't be included in result xml file")
         logging.debug(f"Successfully finished  data converting in {file_key.stem}. Adding to the whole time data")
     # handling data for the whole time
-    # todo ask about correct way of formatting units
     full_interval_dict = find_mean_of_intervals(full_interval_dict)
 
     for key, value in list(full_interval_dict.items()):

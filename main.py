@@ -20,7 +20,8 @@ handled_data_providers = []
 bad_providers = []
 
 
-def start(current_datetime):
+# todo change logic of measuring hours. Program should handle data between [hour-1; hour] not like now [hour; hour+1]
+def start(current_datetime=custom_datetime):
     logfilename = generate_log_filename()
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
     excel_data = excel_tools.get_xlsfile_data(credentials.res_filename)
@@ -46,4 +47,4 @@ def start(current_datetime):
 
 
 if __name__ == '__main__':
-    start(custom_datetime)
+    start()
