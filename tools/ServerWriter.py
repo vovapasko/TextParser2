@@ -1,6 +1,7 @@
 """This file contains class which responds for writing data to ftp server
 """
 import logging
+import traceback
 
 import pysftp as pysftp
 import xml.etree.ElementTree as xml
@@ -16,11 +17,17 @@ class Writer:
         self.remote_folder = self.get_data_from_cred('folder')
 
     def write_to_sftp(self, filename):
-        cnopts = pysftp.CnOpts()
-        cnopts.hostkeys = None
-        with pysftp.Connection(host=self.ftp_host, username=self.ftp_username, password=self.ftp_password) as sftp:
-            with sftp.cd(self.remote_folder):  # temporarily chdir to public
-                sftp.put(filename)  # upload file to public/ on remote
+        try:
+            cnopts = pysftp.CnOpts()
+            cnopts.hostkeys = None
+            with pysftp.Connection(host=self.ftp_host, username=self.ftp_username, password=self.ftp_password) as sftp:
+                with sftp.cd(self.remote_folder):  # temporarily chdir to public
+                    sftp.put(filename)  # upload file to public/ on remote
+            logging.info("Successfully send the file to sftp server")
+        except Exception:
+            logging.error(traceback.format_exc())
+            logging.error("Error happened while writing file to sftp")
+            traceback.print_exc()
 
     def get_data_from_cred(self, key):
         try:
