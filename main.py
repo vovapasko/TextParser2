@@ -6,7 +6,7 @@ from tools import excel_tools
 from tools.filename_generators import generate_filenames, generate_log_filename, generate_output_xml_filename
 import logging
 from result_xml.result_xml_formatting import get_result_xml_tree
-from tools.tools import write_xml_to_file
+from tools.tools import write_xml_to_file, handle_datetime
 
 program_start_time = current_datetime = datetime.now()
 custom_hour = 9
@@ -21,6 +21,7 @@ bad_providers = []
 
 
 def start(par_datetime=current_datetime):
+    par_datetime = handle_datetime(par_datetime)
     logfilename = generate_log_filename(program_start_time)
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
     excel_data = excel_tools.get_xlsfile_data(configs.res_filename)
