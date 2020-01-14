@@ -1,0 +1,4967 @@
+<?xml version="1.0" encoding="UTF-8"?><values list="rnpp5" start-time="04.12.2019-14_45_00" end-time="04.12.2019-14_50_00">
+  <parameter id="SPEED_66">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_67">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_64">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_65">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_62">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_63">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_60">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_61">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_68">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_69">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_51">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_50">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_53">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_52">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_55">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_54">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_57">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_56">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_59">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_58">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_10">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_36">
+    <value t="04.12.2019-14_50_00" v="        0.16"/>
+    <value t="04.12.2019-14_45_00" v="        0.16"/>
+  </parameter>
+
+  <parameter id="W_08">
+    <value t="04.12.2019-14_50_00" v="       -0.03"/>
+    <value t="04.12.2019-14_45_00" v="       -0.03"/>
+  </parameter>
+
+  <parameter id="W_09">
+    <value t="04.12.2019-14_50_00" v="       -0.02"/>
+    <value t="04.12.2019-14_45_00" v="       -0.02"/>
+  </parameter>
+
+  <parameter id="W_06">
+    <value t="04.12.2019-14_50_00" v="       -0.01"/>
+    <value t="04.12.2019-14_45_00" v="       -0.01"/>
+  </parameter>
+
+  <parameter id="W_07">
+    <value t="04.12.2019-14_50_00" v="       -0.02"/>
+    <value t="04.12.2019-14_45_00" v="       -0.02"/>
+  </parameter>
+
+  <parameter id="W_04">
+    <value t="04.12.2019-14_50_00" v="       -0.03"/>
+    <value t="04.12.2019-14_45_00" v="       -0.03"/>
+  </parameter>
+
+  <parameter id="W_05">
+    <value t="04.12.2019-14_50_00" v="           0"/>
+    <value t="04.12.2019-14_45_00" v="           0"/>
+  </parameter>
+
+  <parameter id="W_02">
+    <value t="04.12.2019-14_50_00" v="       -0.07"/>
+    <value t="04.12.2019-14_45_00" v="       -0.07"/>
+  </parameter>
+
+  <parameter id="W_03">
+    <value t="04.12.2019-14_50_00" v="       -0.06"/>
+    <value t="04.12.2019-14_45_00" v="       -0.06"/>
+  </parameter>
+
+  <parameter id="W_01">
+    <value t="04.12.2019-14_50_00" v="       -0.08"/>
+    <value t="04.12.2019-14_45_00" v="       -0.08"/>
+  </parameter>
+
+  <parameter id="SW_31">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_30">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_33">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_32">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_35">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_34">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_37">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_36">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_39">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_38">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_50">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_86">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_87">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_84">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_85">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_82">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_83">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_80">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_81">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_88">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_89">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_80">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="LAT">
+    <value t="04.12.2019-14_50_00" v="     51.3357"/>
+    <value t="04.12.2019-14_45_00" v="     51.3357"/>
+  </parameter>
+
+  <parameter id="W_91">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_90">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_93">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_92">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_95">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_94">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_97">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_96">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_99">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_98">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_18">
+    <value t="04.12.2019-14_50_00" v="         163"/>
+    <value t="04.12.2019-14_45_00" v="         163"/>
+  </parameter>
+
+  <parameter id="S_DIR_95">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_11">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_10">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_13">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_12">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_15">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_14">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_17">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_16">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_19">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_18">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_78">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_79">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_70">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_71">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_72">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_73">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_74">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_75">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_76">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_77">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_37">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_13">
+    <value t="04.12.2019-14_50_00" v="         275"/>
+    <value t="04.12.2019-14_45_00" v="         275"/>
+  </parameter>
+
+  <parameter id="DIR_12">
+    <value t="04.12.2019-14_50_00" v="         279"/>
+    <value t="04.12.2019-14_45_00" v="         279"/>
+  </parameter>
+
+  <parameter id="INV_15">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_36">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_49">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_48">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_41">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_40">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_43">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_42">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_45">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_44">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_47">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_46">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_28">
+    <value t="04.12.2019-14_50_00" v="         247"/>
+    <value t="04.12.2019-14_45_00" v="         247"/>
+  </parameter>
+
+  <parameter id="DIR_29">
+    <value t="04.12.2019-14_50_00" v="         250"/>
+    <value t="04.12.2019-14_45_00" v="         250"/>
+  </parameter>
+
+  <parameter id="INV_13">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_20">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_21">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_22">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_23">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_24">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_25">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_26">
+    <value t="04.12.2019-14_50_00" v="         240"/>
+    <value t="04.12.2019-14_45_00" v="         240"/>
+  </parameter>
+
+  <parameter id="DIR_27">
+    <value t="04.12.2019-14_50_00" v="         244"/>
+    <value t="04.12.2019-14_45_00" v="         244"/>
+  </parameter>
+
+  <parameter id="ST_09">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_08">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_46">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_05">
+    <value t="04.12.2019-14_50_00" v="        0.78"/>
+    <value t="04.12.2019-14_45_00" v="        0.78"/>
+  </parameter>
+
+  <parameter id="ST_04">
+    <value t="04.12.2019-14_50_00" v="        0.39"/>
+    <value t="04.12.2019-14_45_00" v="        0.39"/>
+  </parameter>
+
+  <parameter id="ST_07">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_06">
+    <value t="04.12.2019-14_50_00" v="        0.83"/>
+    <value t="04.12.2019-14_45_00" v="        0.83"/>
+  </parameter>
+
+  <parameter id="ST_01">
+    <value t="04.12.2019-14_50_00" v="        0.61"/>
+    <value t="04.12.2019-14_45_00" v="        0.61"/>
+  </parameter>
+
+  <parameter id="ST_03">
+    <value t="04.12.2019-14_50_00" v="        0.87"/>
+    <value t="04.12.2019-14_45_00" v="        0.87"/>
+  </parameter>
+
+  <parameter id="ST_02">
+    <value t="04.12.2019-14_50_00" v="        0.79"/>
+    <value t="04.12.2019-14_45_00" v="        0.79"/>
+  </parameter>
+
+  <parameter id="INV_34">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_11">
+    <value t="04.12.2019-14_50_00" v="         600"/>
+    <value t="04.12.2019-14_45_00" v="         600"/>
+  </parameter>
+
+  <parameter id="ALT_10">
+    <value t="04.12.2019-14_50_00" v="         550"/>
+    <value t="04.12.2019-14_45_00" v="         550"/>
+  </parameter>
+
+  <parameter id="ALT_13">
+    <value t="04.12.2019-14_50_00" v="         700"/>
+    <value t="04.12.2019-14_45_00" v="         700"/>
+  </parameter>
+
+  <parameter id="ALT_12">
+    <value t="04.12.2019-14_50_00" v="         650"/>
+    <value t="04.12.2019-14_45_00" v="         650"/>
+  </parameter>
+
+  <parameter id="ALT_15">
+    <value t="04.12.2019-14_50_00" v="         800"/>
+    <value t="04.12.2019-14_45_00" v="         800"/>
+  </parameter>
+
+  <parameter id="ALT_14">
+    <value t="04.12.2019-14_50_00" v="         750"/>
+    <value t="04.12.2019-14_45_00" v="         750"/>
+  </parameter>
+
+  <parameter id="T_09">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_08">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_07">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_18">
+    <value t="04.12.2019-14_50_00" v="         950"/>
+    <value t="04.12.2019-14_45_00" v="         950"/>
+  </parameter>
+
+  <parameter id="T_05">
+    <value t="04.12.2019-14_50_00" v="         2.4"/>
+    <value t="04.12.2019-14_45_00" v="         2.4"/>
+  </parameter>
+
+  <parameter id="INV_63">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_03">
+    <value t="04.12.2019-14_50_00" v="           0"/>
+    <value t="04.12.2019-14_45_00" v="           0"/>
+  </parameter>
+
+  <parameter id="T_02">
+    <value t="04.12.2019-14_50_00" v="        -1.3"/>
+    <value t="04.12.2019-14_45_00" v="        -1.3"/>
+  </parameter>
+
+  <parameter id="T_01">
+    <value t="04.12.2019-14_50_00" v="        -1.7"/>
+    <value t="04.12.2019-14_45_00" v="        -1.7"/>
+  </parameter>
+
+  <parameter id="INV_67">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_45">
+    <value t="04.12.2019-14_50_00" v="        2300"/>
+    <value t="04.12.2019-14_45_00" v="        2300"/>
+  </parameter>
+
+  <parameter id="LON">
+    <value t="04.12.2019-14_50_00" v="     25.8549"/>
+    <value t="04.12.2019-14_45_00" v="     25.8549"/>
+  </parameter>
+
+  <parameter id="ALT_43">
+    <value t="04.12.2019-14_50_00" v="        2200"/>
+    <value t="04.12.2019-14_45_00" v="        2200"/>
+  </parameter>
+
+  <parameter id="ALT_40">
+    <value t="04.12.2019-14_50_00" v="        2050"/>
+    <value t="04.12.2019-14_45_00" v="        2050"/>
+  </parameter>
+
+  <parameter id="INV_96">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_96">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_97">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_94">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_95">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_92">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_93">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_90">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_91">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_38">
+    <value t="04.12.2019-14_50_00" v="        0.24"/>
+    <value t="04.12.2019-14_45_00" v="        0.24"/>
+  </parameter>
+
+  <parameter id="CAT_15">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_98">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_99">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_22">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_23">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_20">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_21">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_26">
+    <value t="04.12.2019-14_50_00" v="        6.87"/>
+    <value t="04.12.2019-14_45_00" v="        6.87"/>
+  </parameter>
+
+  <parameter id="SPEED_27">
+    <value t="04.12.2019-14_50_00" v="        7.56"/>
+    <value t="04.12.2019-14_45_00" v="        7.56"/>
+  </parameter>
+
+  <parameter id="SPEED_24">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_25">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_28">
+    <value t="04.12.2019-14_50_00" v="        7.68"/>
+    <value t="04.12.2019-14_45_00" v="        7.68"/>
+  </parameter>
+
+  <parameter id="SPEED_29">
+    <value t="04.12.2019-14_50_00" v="        7.41"/>
+    <value t="04.12.2019-14_45_00" v="        7.41"/>
+  </parameter>
+
+  <parameter id="CAT_14">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_55">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_54">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_57">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_56">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_51">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_50">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_53">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_52">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_39">
+    <value t="04.12.2019-14_50_00" v="        0.26"/>
+    <value t="04.12.2019-14_45_00" v="        0.26"/>
+  </parameter>
+
+  <parameter id="W_59">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_58">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_12">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_59">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_58">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_68">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_69">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_66">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_54">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_64">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_65">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_51">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_50">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_53">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_52">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_59">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_07">
+    <value t="04.12.2019-14_50_00" v="         400"/>
+    <value t="04.12.2019-14_45_00" v="         400"/>
+  </parameter>
+
+  <parameter id="T_25">
+    <value t="04.12.2019-14_50_00" v="        36.6"/>
+    <value t="04.12.2019-14_45_00" v="        36.6"/>
+  </parameter>
+
+  <parameter id="ALT_04">
+    <value t="04.12.2019-14_50_00" v="         250"/>
+    <value t="04.12.2019-14_45_00" v="         250"/>
+  </parameter>
+
+  <parameter id="INV_03">
+    <value t="04.12.2019-14_50_00" v="         200"/>
+    <value t="04.12.2019-14_45_00" v="         200"/>
+  </parameter>
+
+  <parameter id="ALT_05">
+    <value t="04.12.2019-14_50_00" v="         300"/>
+    <value t="04.12.2019-14_45_00" v="         300"/>
+  </parameter>
+
+  <parameter id="T_14">
+    <value t="04.12.2019-14_50_00" v="        36.4"/>
+    <value t="04.12.2019-14_45_00" v="        36.4"/>
+  </parameter>
+
+  <parameter id="INV_01">
+    <value t="04.12.2019-14_50_00" v="         482"/>
+    <value t="04.12.2019-14_45_00" v="         482"/>
+  </parameter>
+
+  <parameter id="ALT_06">
+    <value t="04.12.2019-14_50_00" v="         350"/>
+    <value t="04.12.2019-14_45_00" v="         350"/>
+  </parameter>
+
+  <parameter id="T_15">
+    <value t="04.12.2019-14_50_00" v="        36.5"/>
+    <value t="04.12.2019-14_45_00" v="        36.5"/>
+  </parameter>
+
+  <parameter id="INV_06">
+    <value t="04.12.2019-14_50_00" v="         350"/>
+    <value t="04.12.2019-14_45_00" v="         350"/>
+  </parameter>
+
+  <parameter id="ALT_08">
+    <value t="04.12.2019-14_50_00" v="         450"/>
+    <value t="04.12.2019-14_45_00" v="         450"/>
+  </parameter>
+
+  <parameter id="T_20">
+    <value t="04.12.2019-14_50_00" v="        36.4"/>
+    <value t="04.12.2019-14_45_00" v="        36.4"/>
+  </parameter>
+
+  <parameter id="ALT_09">
+    <value t="04.12.2019-14_50_00" v="         500"/>
+    <value t="04.12.2019-14_45_00" v="         500"/>
+  </parameter>
+
+  <parameter id="CAT_89">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_23">
+    <value t="04.12.2019-14_50_00" v="        36.5"/>
+    <value t="04.12.2019-14_45_00" v="        36.5"/>
+  </parameter>
+
+  <parameter id="CAT_85">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_84">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_87">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_86">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_81">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_80">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_83">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_82">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_28">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_55">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_12">
+    <value t="04.12.2019-14_50_00" v="        36.4"/>
+    <value t="04.12.2019-14_45_00" v="        36.4"/>
+  </parameter>
+
+  <parameter id="SW_67">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_20">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_21">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_22">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_23">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_24">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_57">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_26">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_27">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_41">
+    <value t="04.12.2019-14_50_00" v="        0.31"/>
+    <value t="04.12.2019-14_45_00" v="        0.31"/>
+  </parameter>
+
+  <parameter id="ST_40">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_43">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_56">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_45">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_44">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_47">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_46">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_49">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_48">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_62">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_63">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_64">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_65">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_66">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_67">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_60">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_61">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_08">
+    <value t="04.12.2019-14_50_00" v="         242"/>
+    <value t="04.12.2019-14_45_00" v="         242"/>
+  </parameter>
+
+  <parameter id="T_43">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_42">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_41">
+    <value t="04.12.2019-14_50_00" v="        36.3"/>
+    <value t="04.12.2019-14_45_00" v="        36.3"/>
+  </parameter>
+
+  <parameter id="T_40">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_28">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_29">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_45">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_44">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_24">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_25">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_26">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_27">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_20">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_21">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_22">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_23">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_30">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_31">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_32">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_33">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_34">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_35">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_36">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_37">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_38">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_39">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_91">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_18">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_33">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_68">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_69">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_32">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_64">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_65">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_66">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_19">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_60">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_61">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_62">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_63">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_19">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_18">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_30">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_11">
+    <value t="04.12.2019-14_50_00" v="        0.06"/>
+    <value t="04.12.2019-14_45_00" v="        0.06"/>
+  </parameter>
+
+  <parameter id="W_10">
+    <value t="04.12.2019-14_50_00" v="        0.02"/>
+    <value t="04.12.2019-14_45_00" v="        0.02"/>
+  </parameter>
+
+  <parameter id="W_13">
+    <value t="04.12.2019-14_50_00" v="        0.13"/>
+    <value t="04.12.2019-14_45_00" v="        0.13"/>
+  </parameter>
+
+  <parameter id="W_12">
+    <value t="04.12.2019-14_50_00" v="        0.09"/>
+    <value t="04.12.2019-14_45_00" v="        0.09"/>
+  </parameter>
+
+  <parameter id="W_15">
+    <value t="04.12.2019-14_50_00" v="        0.14"/>
+    <value t="04.12.2019-14_45_00" v="        0.14"/>
+  </parameter>
+
+  <parameter id="W_14">
+    <value t="04.12.2019-14_50_00" v="        0.16"/>
+    <value t="04.12.2019-14_45_00" v="        0.16"/>
+  </parameter>
+
+  <parameter id="W_17">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_16">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_99">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_23">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_20">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_87">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_26">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_27">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_24">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_25">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_91">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_90">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_28">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_29">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_88">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_94">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_88">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_96">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_79">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_78">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_06">
+    <value t="04.12.2019-14_50_00" v="        0.28"/>
+    <value t="04.12.2019-14_45_00" v="        0.28"/>
+  </parameter>
+
+  <parameter id="CAT_18">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_71">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_70">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_73">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_72">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_75">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_74">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_77">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_76">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_14">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_69">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_68">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_69">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_64">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_65">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_66">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_67">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_60">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_61">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_62">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_63">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_97">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_96">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_95">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_94">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_93">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_92">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_91">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_90">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_99">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_98">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_64">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_65">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_66">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_67">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_60">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_61">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_62">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_63">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_68">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_69">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_48">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_89">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_49">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_74">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_75">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_76">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_77">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_70">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_71">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_72">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_73">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_09">
+    <value t="04.12.2019-14_50_00" v="         258"/>
+    <value t="04.12.2019-14_45_00" v="         258"/>
+  </parameter>
+
+  <parameter id="CAT_78">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_79">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_35">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_88">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_89">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_82">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_83">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_80">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_81">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_86">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_87">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_84">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_85">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_18">
+    <value t="04.12.2019-14_50_00" v="        0.32"/>
+    <value t="04.12.2019-14_45_00" v="        0.32"/>
+  </parameter>
+
+  <parameter id="ST_19">
+    <value t="04.12.2019-14_50_00" v="        0.39"/>
+    <value t="04.12.2019-14_45_00" v="        0.39"/>
+  </parameter>
+
+  <parameter id="ST_16">
+    <value t="04.12.2019-14_50_00" v="        0.41"/>
+    <value t="04.12.2019-14_45_00" v="        0.41"/>
+  </parameter>
+
+  <parameter id="ST_17">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_14">
+    <value t="04.12.2019-14_50_00" v="        0.17"/>
+    <value t="04.12.2019-14_45_00" v="        0.17"/>
+  </parameter>
+
+  <parameter id="ST_15">
+    <value t="04.12.2019-14_50_00" v="        0.31"/>
+    <value t="04.12.2019-14_45_00" v="        0.31"/>
+  </parameter>
+
+  <parameter id="ST_12">
+    <value t="04.12.2019-14_50_00" v="        0.39"/>
+    <value t="04.12.2019-14_45_00" v="        0.39"/>
+  </parameter>
+
+  <parameter id="ST_13">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_10">
+    <value t="04.12.2019-14_50_00" v="        0.36"/>
+    <value t="04.12.2019-14_45_00" v="        0.36"/>
+  </parameter>
+
+  <parameter id="ST_11">
+    <value t="04.12.2019-14_50_00" v="        0.36"/>
+    <value t="04.12.2019-14_45_00" v="        0.36"/>
+  </parameter>
+
+  <parameter id="INV_77">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_76">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_75">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_74">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_73">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_72">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_71">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_70">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_79">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_78">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_38">
+    <value t="04.12.2019-14_50_00" v="        36.3"/>
+    <value t="04.12.2019-14_45_00" v="        36.3"/>
+  </parameter>
+
+  <parameter id="T_39">
+    <value t="04.12.2019-14_50_00" v="        36.3"/>
+    <value t="04.12.2019-14_45_00" v="        36.3"/>
+  </parameter>
+
+  <parameter id="ALT_28">
+    <value t="04.12.2019-14_50_00" v="        1450"/>
+    <value t="04.12.2019-14_45_00" v="        1450"/>
+  </parameter>
+
+  <parameter id="ALT_29">
+    <value t="04.12.2019-14_50_00" v="        1500"/>
+    <value t="04.12.2019-14_45_00" v="        1500"/>
+  </parameter>
+
+  <parameter id="S_DIR_41">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_32">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_33">
+    <value t="04.12.2019-14_50_00" v="        36.5"/>
+    <value t="04.12.2019-14_45_00" v="        36.5"/>
+  </parameter>
+
+  <parameter id="T_30">
+    <value t="04.12.2019-14_50_00" v="        36.3"/>
+    <value t="04.12.2019-14_45_00" v="        36.3"/>
+  </parameter>
+
+  <parameter id="T_31">
+    <value t="04.12.2019-14_50_00" v="        36.3"/>
+    <value t="04.12.2019-14_45_00" v="        36.3"/>
+  </parameter>
+
+  <parameter id="ALT_20">
+    <value t="04.12.2019-14_50_00" v="        1050"/>
+    <value t="04.12.2019-14_45_00" v="        1050"/>
+  </parameter>
+
+  <parameter id="ALT_21">
+    <value t="04.12.2019-14_50_00" v="        1100"/>
+    <value t="04.12.2019-14_45_00" v="        1100"/>
+  </parameter>
+
+  <parameter id="T_34">
+    <value t="04.12.2019-14_50_00" v="        36.5"/>
+    <value t="04.12.2019-14_45_00" v="        36.5"/>
+  </parameter>
+
+  <parameter id="ALT_23">
+    <value t="04.12.2019-14_50_00" v="        1200"/>
+    <value t="04.12.2019-14_45_00" v="        1200"/>
+  </parameter>
+
+  <parameter id="SPEED_40">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_41">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_42">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_43">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_44">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_45">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_46">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_47">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_48">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_49">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_11">
+    <value t="04.12.2019-14_50_00" v="        36.2"/>
+    <value t="04.12.2019-14_45_00" v="        36.2"/>
+  </parameter>
+
+  <parameter id="S_DIR_29">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_35">
+    <value t="04.12.2019-14_50_00" v="         1.7"/>
+    <value t="04.12.2019-14_45_00" v="         1.7"/>
+  </parameter>
+
+  <parameter id="SPEED_34">
+    <value t="04.12.2019-14_50_00" v="        0.68"/>
+    <value t="04.12.2019-14_45_00" v="        0.68"/>
+  </parameter>
+
+  <parameter id="DIR_35">
+    <value t="04.12.2019-14_50_00" v="         255"/>
+    <value t="04.12.2019-14_45_00" v="         255"/>
+  </parameter>
+
+  <parameter id="DIR_34">
+    <value t="04.12.2019-14_50_00" v="         265"/>
+    <value t="04.12.2019-14_45_00" v="         265"/>
+  </parameter>
+
+  <parameter id="SPEED_31">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_32">
+    <value t="04.12.2019-14_50_00" v="           4"/>
+    <value t="04.12.2019-14_45_00" v="           4"/>
+  </parameter>
+
+  <parameter id="DIR_31">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_30">
+    <value t="04.12.2019-14_50_00" v="         255"/>
+    <value t="04.12.2019-14_45_00" v="         255"/>
+  </parameter>
+
+  <parameter id="SPEED_39">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_38">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_39">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_38">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_20">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_21">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_22">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_23">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_24">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_25">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_26">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_27">
+    <value t="04.12.2019-14_50_00" v="       -0.48"/>
+    <value t="04.12.2019-14_45_00" v="       -0.48"/>
+  </parameter>
+
+  <parameter id="W_28">
+    <value t="04.12.2019-14_50_00" v="       -0.53"/>
+    <value t="04.12.2019-14_45_00" v="       -0.53"/>
+  </parameter>
+
+  <parameter id="W_29">
+    <value t="04.12.2019-14_50_00" v="       -0.54"/>
+    <value t="04.12.2019-14_45_00" v="       -0.54"/>
+  </parameter>
+
+  <parameter id="SW_59">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_58">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_53">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_52">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_51">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_50">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_57">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_56">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_55">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_25">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_16">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_68">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_69">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_16">
+    <value t="04.12.2019-14_50_00" v="        36.6"/>
+    <value t="04.12.2019-14_45_00" v="        36.6"/>
+  </parameter>
+
+  <parameter id="INV_41">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_42">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_42">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DATEMEAS">
+    <value t="04.12.2019-14_50_00" v=" 1.51551e+09"/>
+    <value t="04.12.2019-14_45_00" v=" 1.51551e+09"/>
+  </parameter>
+
+  <parameter id="T_17">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_75">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_47">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_19">
+    <value t="04.12.2019-14_50_00" v="        36.4"/>
+    <value t="04.12.2019-14_45_00" v="        36.4"/>
+  </parameter>
+
+  <parameter id="ALT_60">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_39">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_38">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_61">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_33">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_32">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_31">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_30">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_37">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_36">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_35">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_34">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_52">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_53">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_50">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_51">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_56">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_57">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_54">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_55">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_05">
+    <value t="04.12.2019-14_50_00" v="         300"/>
+    <value t="04.12.2019-14_45_00" v="         300"/>
+  </parameter>
+
+  <parameter id="ST_58">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_59">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_46">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_49">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_47">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_44">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_90">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_39">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_38">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_78">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_79">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_76">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_77">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_74">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_75">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_72">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_73">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_70">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_71">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_42">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_79">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_29">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_28">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_27">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_26">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_25">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_24">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_23">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_22">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_21">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_20">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_94">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_95">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_96">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_97">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_90">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_91">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_92">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_93">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_06">
+    <value t="04.12.2019-14_50_00" v="         263"/>
+    <value t="04.12.2019-14_45_00" v="         263"/>
+  </parameter>
+
+  <parameter id="DIR_07">
+    <value t="04.12.2019-14_50_00" v="         250"/>
+    <value t="04.12.2019-14_45_00" v="         250"/>
+  </parameter>
+
+  <parameter id="DIR_04">
+    <value t="04.12.2019-14_50_00" v="         276"/>
+    <value t="04.12.2019-14_45_00" v="         276"/>
+  </parameter>
+
+  <parameter id="DIR_05">
+    <value t="04.12.2019-14_50_00" v="         272"/>
+    <value t="04.12.2019-14_45_00" v="         272"/>
+  </parameter>
+
+  <parameter id="DIR_02">
+    <value t="04.12.2019-14_50_00" v="         284"/>
+    <value t="04.12.2019-14_45_00" v="         284"/>
+  </parameter>
+
+  <parameter id="DIR_03">
+    <value t="04.12.2019-14_50_00" v="         276"/>
+    <value t="04.12.2019-14_45_00" v="         276"/>
+  </parameter>
+
+  <parameter id="DIR_01">
+    <value t="04.12.2019-14_50_00" v="         289"/>
+    <value t="04.12.2019-14_45_00" v="         289"/>
+  </parameter>
+
+  <parameter id="ALT_88">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_89">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_44">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_82">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_83">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_80">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_81">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_86">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_87">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_84">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_85">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_47">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_77">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_76">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_79">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_74">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_73">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_72">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_71">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_70">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_73">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_72">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_71">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_45">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_42">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_43">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_40">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_78">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_95">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_94">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_95">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_94">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_93">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_92">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_19">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_92">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_17">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_16">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_15">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_14">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_99">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_12">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_11">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_10">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_97">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_27">
+    <value t="04.12.2019-14_50_00" v="        1400"/>
+    <value t="04.12.2019-14_45_00" v="        1400"/>
+  </parameter>
+
+  <parameter id="SPEED_96">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_36">
+    <value t="04.12.2019-14_50_00" v="        37.4"/>
+    <value t="04.12.2019-14_45_00" v="        37.4"/>
+  </parameter>
+
+  <parameter id="DIR_97">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_37">
+    <value t="04.12.2019-14_50_00" v="        36.6"/>
+    <value t="04.12.2019-14_45_00" v="        36.6"/>
+  </parameter>
+
+  <parameter id="DIR_96">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_08">
+    <value t="04.12.2019-14_50_00" v="        2.63"/>
+    <value t="04.12.2019-14_45_00" v="        2.63"/>
+  </parameter>
+
+  <parameter id="SPEED_09">
+    <value t="04.12.2019-14_50_00" v="        1.91"/>
+    <value t="04.12.2019-14_45_00" v="        1.91"/>
+  </parameter>
+
+  <parameter id="SPEED_04">
+    <value t="04.12.2019-14_50_00" v="        2.59"/>
+    <value t="04.12.2019-14_45_00" v="        2.59"/>
+  </parameter>
+
+  <parameter id="DIR_91">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_06">
+    <value t="04.12.2019-14_50_00" v="        2.02"/>
+    <value t="04.12.2019-14_45_00" v="        2.02"/>
+  </parameter>
+
+  <parameter id="SPEED_07">
+    <value t="04.12.2019-14_50_00" v="        2.07"/>
+    <value t="04.12.2019-14_45_00" v="        2.07"/>
+  </parameter>
+
+  <parameter id="SPEED_01">
+    <value t="04.12.2019-14_50_00" v="        4.04"/>
+    <value t="04.12.2019-14_45_00" v="        4.04"/>
+  </parameter>
+
+  <parameter id="SPEED_02">
+    <value t="04.12.2019-14_50_00" v="        3.35"/>
+    <value t="04.12.2019-14_45_00" v="        3.35"/>
+  </parameter>
+
+  <parameter id="DIR_90">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_48">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_93">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_31">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_79">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_78">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_77">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_76">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_75">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_74">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_73">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_72">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_71">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_70">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_80">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_81">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_82">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_83">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_84">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_85">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_86">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_87">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_88">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_13">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_98">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_77">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_76">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_75">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_74">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_73">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_72">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_71">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_70">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_98">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_79">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_78">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_25">
+    <value t="04.12.2019-14_50_00" v="        1300"/>
+    <value t="04.12.2019-14_45_00" v="        1300"/>
+  </parameter>
+
+  <parameter id="T_47">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_63">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_62">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_61">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_60">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_67">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_66">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_65">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_64">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_69">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_68">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_46">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_68">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_24">
+    <value t="04.12.2019-14_50_00" v="        1250"/>
+    <value t="04.12.2019-14_45_00" v="        1250"/>
+  </parameter>
+
+  <parameter id="INV_99">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_98">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_48">
+    <value t="04.12.2019-14_50_00" v="        2450"/>
+    <value t="04.12.2019-14_45_00" v="        2450"/>
+  </parameter>
+
+  <parameter id="ALT_49">
+    <value t="04.12.2019-14_50_00" v="        2500"/>
+    <value t="04.12.2019-14_45_00" v="        2500"/>
+  </parameter>
+
+  <parameter id="ALT_46">
+    <value t="04.12.2019-14_50_00" v="        2350"/>
+    <value t="04.12.2019-14_45_00" v="        2350"/>
+  </parameter>
+
+  <parameter id="INV_90">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_93">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_92">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_42">
+    <value t="04.12.2019-14_50_00" v="        2150"/>
+    <value t="04.12.2019-14_45_00" v="        2150"/>
+  </parameter>
+
+  <parameter id="INV_94">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_97">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_41">
+    <value t="04.12.2019-14_50_00" v="        2100"/>
+    <value t="04.12.2019-14_45_00" v="        2100"/>
+  </parameter>
+
+  <parameter id="ST_29">
+    <value t="04.12.2019-14_50_00" v="         0.3"/>
+    <value t="04.12.2019-14_45_00" v="         0.3"/>
+  </parameter>
+
+  <parameter id="ST_28">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_23">
+    <value t="04.12.2019-14_50_00" v="        0.27"/>
+    <value t="04.12.2019-14_45_00" v="        0.27"/>
+  </parameter>
+
+  <parameter id="ST_22">
+    <value t="04.12.2019-14_50_00" v="         0.3"/>
+    <value t="04.12.2019-14_45_00" v="         0.3"/>
+  </parameter>
+
+  <parameter id="ST_21">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_20">
+    <value t="04.12.2019-14_50_00" v="        0.39"/>
+    <value t="04.12.2019-14_45_00" v="        0.39"/>
+  </parameter>
+
+  <parameter id="ST_27">
+    <value t="04.12.2019-14_50_00" v="        0.28"/>
+    <value t="04.12.2019-14_45_00" v="        0.28"/>
+  </parameter>
+
+  <parameter id="ST_26">
+    <value t="04.12.2019-14_50_00" v="        0.38"/>
+    <value t="04.12.2019-14_45_00" v="        0.38"/>
+  </parameter>
+
+  <parameter id="ST_25">
+    <value t="04.12.2019-14_50_00" v="        0.36"/>
+    <value t="04.12.2019-14_45_00" v="        0.36"/>
+  </parameter>
+
+  <parameter id="ST_24">
+    <value t="04.12.2019-14_50_00" v="        0.31"/>
+    <value t="04.12.2019-14_45_00" v="        0.31"/>
+  </parameter>
+
+  <parameter id="INV_02">
+    <value t="04.12.2019-14_50_00" v="         150"/>
+    <value t="04.12.2019-14_45_00" v="         150"/>
+  </parameter>
+
+  <parameter id="T_24">
+    <value t="04.12.2019-14_50_00" v="        36.5"/>
+    <value t="04.12.2019-14_45_00" v="        36.5"/>
+  </parameter>
+
+  <parameter id="T_27">
+    <value t="04.12.2019-14_50_00" v="        36.4"/>
+    <value t="04.12.2019-14_45_00" v="        36.4"/>
+  </parameter>
+
+  <parameter id="T_26">
+    <value t="04.12.2019-14_50_00" v="        36.6"/>
+    <value t="04.12.2019-14_45_00" v="        36.6"/>
+  </parameter>
+
+  <parameter id="T_21">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_07">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_04">
+    <value t="04.12.2019-14_50_00" v="         250"/>
+    <value t="04.12.2019-14_45_00" v="         250"/>
+  </parameter>
+
+  <parameter id="T_22">
+    <value t="04.12.2019-14_50_00" v="        36.5"/>
+    <value t="04.12.2019-14_45_00" v="        36.5"/>
+  </parameter>
+
+  <parameter id="INV_08">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_09">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_29">
+    <value t="04.12.2019-14_50_00" v="        36.3"/>
+    <value t="04.12.2019-14_45_00" v="        36.3"/>
+  </parameter>
+
+  <parameter id="T_28">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_16">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_17">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_39">
+    <value t="04.12.2019-14_50_00" v="        2000"/>
+    <value t="04.12.2019-14_45_00" v="        2000"/>
+  </parameter>
+
+  <parameter id="ALT_38">
+    <value t="04.12.2019-14_50_00" v="        1950"/>
+    <value t="04.12.2019-14_45_00" v="        1950"/>
+  </parameter>
+
+  <parameter id="CAT_12">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_13">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_10">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_11">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_33">
+    <value t="04.12.2019-14_50_00" v="        1700"/>
+    <value t="04.12.2019-14_45_00" v="        1700"/>
+  </parameter>
+
+  <parameter id="ALT_32">
+    <value t="04.12.2019-14_50_00" v="        1650"/>
+    <value t="04.12.2019-14_45_00" v="        1650"/>
+  </parameter>
+
+  <parameter id="ALT_31">
+    <value t="04.12.2019-14_50_00" v="        1600"/>
+    <value t="04.12.2019-14_45_00" v="        1600"/>
+  </parameter>
+
+  <parameter id="ALT_30">
+    <value t="04.12.2019-14_50_00" v="        1550"/>
+    <value t="04.12.2019-14_45_00" v="        1550"/>
+  </parameter>
+
+  <parameter id="ALT_37">
+    <value t="04.12.2019-14_50_00" v="        1900"/>
+    <value t="04.12.2019-14_45_00" v="        1900"/>
+  </parameter>
+
+  <parameter id="ALT_36">
+    <value t="04.12.2019-14_50_00" v="        1850"/>
+    <value t="04.12.2019-14_45_00" v="        1850"/>
+  </parameter>
+
+  <parameter id="ALT_35">
+    <value t="04.12.2019-14_50_00" v="        1800"/>
+    <value t="04.12.2019-14_45_00" v="        1800"/>
+  </parameter>
+
+  <parameter id="ALT_34">
+    <value t="04.12.2019-14_50_00" v="        1750"/>
+    <value t="04.12.2019-14_45_00" v="        1750"/>
+  </parameter>
+
+  <parameter id="SPEED_53">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_52">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_51">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_50">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_57">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_56">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_55">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_54">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_59">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_58">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_26">
+    <value t="04.12.2019-14_50_00" v="        1350"/>
+    <value t="04.12.2019-14_45_00" v="        1350"/>
+  </parameter>
+
+  <parameter id="SPEED_05">
+    <value t="04.12.2019-14_50_00" v="        2.35"/>
+    <value t="04.12.2019-14_45_00" v="        2.35"/>
+  </parameter>
+
+  <parameter id="INV_95">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_62">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_78">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_42">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_43">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_40">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_41">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_46">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_47">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_44">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_45">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_48">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_03">
+    <value t="04.12.2019-14_50_00" v="        2.76"/>
+    <value t="04.12.2019-14_45_00" v="        2.76"/>
+  </parameter>
+
+  <parameter id="W_33">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_32">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_31">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_30">
+    <value t="04.12.2019-14_50_00" v="       -0.55"/>
+    <value t="04.12.2019-14_45_00" v="       -0.55"/>
+  </parameter>
+
+  <parameter id="W_37">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_36">
+    <value t="04.12.2019-14_50_00" v="       -0.74"/>
+    <value t="04.12.2019-14_45_00" v="       -0.74"/>
+  </parameter>
+
+  <parameter id="W_35">
+    <value t="04.12.2019-14_50_00" v="       -0.71"/>
+    <value t="04.12.2019-14_45_00" v="       -0.71"/>
+  </parameter>
+
+  <parameter id="W_34">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_39">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_38">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_44">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_45">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_46">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_47">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_40">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_41">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_42">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_43">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_85">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_91">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_48">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_49">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_49">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_37">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_22">
+    <value t="04.12.2019-14_50_00" v="        1150"/>
+    <value t="04.12.2019-14_45_00" v="        1150"/>
+  </parameter>
+
+  <parameter id="DIR_36">
+    <value t="04.12.2019-14_50_00" v="         276"/>
+    <value t="04.12.2019-14_45_00" v="         276"/>
+  </parameter>
+
+  <parameter id="SPEED_37">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_10">
+    <value t="04.12.2019-14_50_00" v="        33.3"/>
+    <value t="04.12.2019-14_45_00" v="        33.3"/>
+  </parameter>
+
+  <parameter id="SPEED_36">
+    <value t="04.12.2019-14_50_00" v="        2.05"/>
+    <value t="04.12.2019-14_45_00" v="        2.05"/>
+  </parameter>
+
+  <parameter id="SPEED_86">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_33">
+    <value t="04.12.2019-14_50_00" v="          31"/>
+    <value t="04.12.2019-14_45_00" v="          31"/>
+  </parameter>
+
+  <parameter id="SPEED_30">
+    <value t="04.12.2019-14_50_00" v="        4.77"/>
+    <value t="04.12.2019-14_45_00" v="        4.77"/>
+  </parameter>
+
+  <parameter id="SPEED_33">
+    <value t="04.12.2019-14_50_00" v="        1.94"/>
+    <value t="04.12.2019-14_45_00" v="        1.94"/>
+  </parameter>
+
+  <parameter id="SPEED_32">
+    <value t="04.12.2019-14_50_00" v="        1.47"/>
+    <value t="04.12.2019-14_45_00" v="        1.47"/>
+  </parameter>
+
+  <parameter id="S_DIR_43">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_86">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_87">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_84">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_85">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_82">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_83">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_80">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_81">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_88">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_89">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_40">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_80">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_63">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_08">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_09">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_06">
+    <value t="04.12.2019-14_50_00" v="          16"/>
+    <value t="04.12.2019-14_45_00" v="          16"/>
+  </parameter>
+
+  <parameter id="S_DIR_07">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_04">
+    <value t="04.12.2019-14_50_00" v="          14"/>
+    <value t="04.12.2019-14_45_00" v="          14"/>
+  </parameter>
+
+  <parameter id="S_DIR_05">
+    <value t="04.12.2019-14_50_00" v="          15"/>
+    <value t="04.12.2019-14_45_00" v="          15"/>
+  </parameter>
+
+  <parameter id="S_DIR_02">
+    <value t="04.12.2019-14_50_00" v="          12"/>
+    <value t="04.12.2019-14_45_00" v="          12"/>
+  </parameter>
+
+  <parameter id="S_DIR_03">
+    <value t="04.12.2019-14_50_00" v="          14"/>
+    <value t="04.12.2019-14_45_00" v="          14"/>
+  </parameter>
+
+  <parameter id="S_DIR_01">
+    <value t="04.12.2019-14_50_00" v="          11"/>
+    <value t="04.12.2019-14_45_00" v="          11"/>
+  </parameter>
+
+  <parameter id="ST_69">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_68">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_67">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_66">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_65">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_64">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_63">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_62">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_61">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_60">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_81">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_49">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_30">
+    <value t="04.12.2019-14_50_00" v="        0.31"/>
+    <value t="04.12.2019-14_45_00" v="        0.31"/>
+  </parameter>
+
+  <parameter id="ST_31">
+    <value t="04.12.2019-14_50_00" v="         0.3"/>
+    <value t="04.12.2019-14_45_00" v="         0.3"/>
+  </parameter>
+
+  <parameter id="T_69">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_68">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_61">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_60">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_63">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_62">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_65">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_64">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_67">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_66">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_58">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_59">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_52">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_53">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_86">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_51">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_56">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_57">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_54">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_55">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_87">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_86">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_85">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_84">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_83">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_82">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_81">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_80">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_15">
+    <value t="04.12.2019-14_50_00" v="         191"/>
+    <value t="04.12.2019-14_45_00" v="         191"/>
+  </parameter>
+
+  <parameter id="DIR_14">
+    <value t="04.12.2019-14_50_00" v="         270"/>
+    <value t="04.12.2019-14_45_00" v="         270"/>
+  </parameter>
+
+  <parameter id="DIR_17">
+    <value t="04.12.2019-14_50_00" v="         160"/>
+    <value t="04.12.2019-14_45_00" v="         160"/>
+  </parameter>
+
+  <parameter id="DIR_16">
+    <value t="04.12.2019-14_50_00" v="         160"/>
+    <value t="04.12.2019-14_45_00" v="         160"/>
+  </parameter>
+
+  <parameter id="DIR_11">
+    <value t="04.12.2019-14_50_00" v="         313"/>
+    <value t="04.12.2019-14_45_00" v="         313"/>
+  </parameter>
+
+  <parameter id="DIR_10">
+    <value t="04.12.2019-14_50_00" v="         332"/>
+    <value t="04.12.2019-14_45_00" v="         332"/>
+  </parameter>
+
+  <parameter id="T_89">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_88">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_99">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_98">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_70">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_64">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_91">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_90">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_93">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_92">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_95">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_94">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_97">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_96">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_88">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_67">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_17">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_91">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_02">
+    <value t="04.12.2019-14_50_00" v="         150"/>
+    <value t="04.12.2019-14_45_00" v="         150"/>
+  </parameter>
+
+  <parameter id="ALT_03">
+    <value t="04.12.2019-14_50_00" v="         200"/>
+    <value t="04.12.2019-14_45_00" v="         200"/>
+  </parameter>
+
+  <parameter id="ALT_01">
+    <value t="04.12.2019-14_50_00" v="         100"/>
+    <value t="04.12.2019-14_45_00" v="         100"/>
+  </parameter>
+
+  <parameter id="T_18">
+    <value t="04.12.2019-14_50_00" v="        36.5"/>
+    <value t="04.12.2019-14_45_00" v="        36.5"/>
+  </parameter>
+
+  <parameter id="INV_58">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_84">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_89">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_55">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_54">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_57">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_56">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_51">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_50">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_53">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_52">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_47">
+    <value t="04.12.2019-14_50_00" v="        2400"/>
+    <value t="04.12.2019-14_45_00" v="        2400"/>
+  </parameter>
+
+  <parameter id="S_DIR_45">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_99">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_08">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_09">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_85">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_01">
+    <value t="04.12.2019-14_50_00" v="        0.53"/>
+    <value t="04.12.2019-14_45_00" v="        0.53"/>
+  </parameter>
+
+  <parameter id="SW_02">
+    <value t="04.12.2019-14_50_00" v="        0.44"/>
+    <value t="04.12.2019-14_45_00" v="        0.44"/>
+  </parameter>
+
+  <parameter id="SW_03">
+    <value t="04.12.2019-14_50_00" v="        0.36"/>
+    <value t="04.12.2019-14_45_00" v="        0.36"/>
+  </parameter>
+
+  <parameter id="SW_04">
+    <value t="04.12.2019-14_50_00" v="        0.33"/>
+    <value t="04.12.2019-14_45_00" v="        0.33"/>
+  </parameter>
+
+  <parameter id="SW_05">
+    <value t="04.12.2019-14_50_00" v="         0.3"/>
+    <value t="04.12.2019-14_45_00" v="         0.3"/>
+  </parameter>
+
+  <parameter id="ALT_44">
+    <value t="04.12.2019-14_50_00" v="        2250"/>
+    <value t="04.12.2019-14_45_00" v="        2250"/>
+  </parameter>
+
+  <parameter id="SW_07">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_85">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_84">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_87">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_86">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_81">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_80">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_83">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_82">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_84">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_98">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_88">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_75">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_19">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_18">
+    <value t="04.12.2019-14_50_00" v="        4.38"/>
+    <value t="04.12.2019-14_45_00" v="        4.38"/>
+  </parameter>
+
+  <parameter id="SPEED_17">
+    <value t="04.12.2019-14_50_00" v="        4.51"/>
+    <value t="04.12.2019-14_45_00" v="        4.51"/>
+  </parameter>
+
+  <parameter id="SPEED_16">
+    <value t="04.12.2019-14_50_00" v="        4.47"/>
+    <value t="04.12.2019-14_45_00" v="        4.47"/>
+  </parameter>
+
+  <parameter id="SPEED_15">
+    <value t="04.12.2019-14_50_00" v="        2.22"/>
+    <value t="04.12.2019-14_45_00" v="        2.22"/>
+  </parameter>
+
+  <parameter id="SPEED_14">
+    <value t="04.12.2019-14_50_00" v="        2.49"/>
+    <value t="04.12.2019-14_45_00" v="        2.49"/>
+  </parameter>
+
+  <parameter id="SPEED_13">
+    <value t="04.12.2019-14_50_00" v="        2.78"/>
+    <value t="04.12.2019-14_45_00" v="        2.78"/>
+  </parameter>
+
+  <parameter id="SPEED_12">
+    <value t="04.12.2019-14_50_00" v="        2.81"/>
+    <value t="04.12.2019-14_45_00" v="        2.81"/>
+  </parameter>
+
+  <parameter id="SPEED_11">
+    <value t="04.12.2019-14_50_00" v="           2"/>
+    <value t="04.12.2019-14_45_00" v="           2"/>
+  </parameter>
+
+  <parameter id="SPEED_10">
+    <value t="04.12.2019-14_50_00" v="        1.76"/>
+    <value t="04.12.2019-14_45_00" v="        1.76"/>
+  </parameter>
+
+  <parameter id="INV_11">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_17">
+    <value t="04.12.2019-14_50_00" v="         900"/>
+    <value t="04.12.2019-14_45_00" v="         900"/>
+  </parameter>
+
+  <parameter id="T_35">
+    <value t="04.12.2019-14_50_00" v="        36.7"/>
+    <value t="04.12.2019-14_45_00" v="        36.7"/>
+  </parameter>
+
+  <parameter id="DIR_77">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_16">
+    <value t="04.12.2019-14_50_00" v="         850"/>
+    <value t="04.12.2019-14_45_00" v="         850"/>
+  </parameter>
+
+  <parameter id="DIR_74">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_60">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_48">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_49">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_06">
+    <value t="04.12.2019-14_50_00" v="         7.4"/>
+    <value t="04.12.2019-14_45_00" v="         7.4"/>
+  </parameter>
+
+  <parameter id="S_DIR_98">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_43">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_40">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_41">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_46">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_62">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_44">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="W_45">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_22">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_48">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_04">
+    <value t="04.12.2019-14_50_00" v="           1"/>
+    <value t="04.12.2019-14_45_00" v="           1"/>
+  </parameter>
+
+  <parameter id="SW_79">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_78">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_87">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_75">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_74">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_77">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_76">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_71">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_70">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_73">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_65">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_19">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SW_21">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_19">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_66">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_18">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_82">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_83">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="INV_61">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_82">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_83">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_81">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_04">
+    <value t="04.12.2019-14_50_00" v="           2"/>
+    <value t="04.12.2019-14_45_00" v="           2"/>
+  </parameter>
+
+  <parameter id="SW_54">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_93">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_92">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_98">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_99">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_96">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_97">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_94">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_95">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_92">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_93">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_90">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="SPEED_89">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="S_DIR_97">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="DIR_89">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_34">
+    <value t="04.12.2019-14_50_00" v="        0.29"/>
+    <value t="04.12.2019-14_45_00" v="        0.29"/>
+  </parameter>
+
+  <parameter id="ST_35">
+    <value t="04.12.2019-14_50_00" v="        0.24"/>
+    <value t="04.12.2019-14_45_00" v="        0.24"/>
+  </parameter>
+
+  <parameter id="T_99">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_37">
+    <value t="04.12.2019-14_50_00" v="        0.21"/>
+    <value t="04.12.2019-14_45_00" v="        0.21"/>
+  </parameter>
+
+  <parameter id="ALT_59">
+    <value t="04.12.2019-14_50_00" v="        3000"/>
+    <value t="04.12.2019-14_45_00" v="        3000"/>
+  </parameter>
+
+  <parameter id="ALT_58">
+    <value t="04.12.2019-14_50_00" v="        2950"/>
+    <value t="04.12.2019-14_45_00" v="        2950"/>
+  </parameter>
+
+  <parameter id="ST_32">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ST_33">
+    <value t="04.12.2019-14_50_00" v="        0.31"/>
+    <value t="04.12.2019-14_45_00" v="        0.31"/>
+  </parameter>
+
+  <parameter id="ALT_55">
+    <value t="04.12.2019-14_50_00" v="        2800"/>
+    <value t="04.12.2019-14_45_00" v="        2800"/>
+  </parameter>
+
+  <parameter id="ALT_54">
+    <value t="04.12.2019-14_50_00" v="        2750"/>
+    <value t="04.12.2019-14_45_00" v="        2750"/>
+  </parameter>
+
+  <parameter id="ALT_57">
+    <value t="04.12.2019-14_50_00" v="        2900"/>
+    <value t="04.12.2019-14_45_00" v="        2900"/>
+  </parameter>
+
+  <parameter id="ALT_56">
+    <value t="04.12.2019-14_50_00" v="        2850"/>
+    <value t="04.12.2019-14_45_00" v="        2850"/>
+  </parameter>
+
+  <parameter id="ALT_51">
+    <value t="04.12.2019-14_50_00" v="        2600"/>
+    <value t="04.12.2019-14_45_00" v="        2600"/>
+  </parameter>
+
+  <parameter id="ALT_50">
+    <value t="04.12.2019-14_50_00" v="        2550"/>
+    <value t="04.12.2019-14_45_00" v="        2550"/>
+  </parameter>
+
+  <parameter id="ALT_53">
+    <value t="04.12.2019-14_50_00" v="        2700"/>
+    <value t="04.12.2019-14_45_00" v="        2700"/>
+  </parameter>
+
+  <parameter id="ALT_52">
+    <value t="04.12.2019-14_50_00" v="        2650"/>
+    <value t="04.12.2019-14_45_00" v="        2650"/>
+  </parameter>
+
+  <parameter id="DIR_76">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="ALT_19">
+    <value t="04.12.2019-14_50_00" v="        1000"/>
+    <value t="04.12.2019-14_45_00" v="        1000"/>
+  </parameter>
+
+  <parameter id="T_50">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_51">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_52">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_53">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_54">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_55">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_56">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_57">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_58">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="T_59">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_05">
+    <value t="04.12.2019-14_50_00" v="           2"/>
+    <value t="04.12.2019-14_45_00" v="           2"/>
+  </parameter>
+
+  <parameter id="T_13">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_07">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_06">
+    <value t="04.12.2019-14_50_00" v="           2"/>
+    <value t="04.12.2019-14_45_00" v="           2"/>
+  </parameter>
+
+  <parameter id="CAT_01">
+    <value t="04.12.2019-14_50_00" v="           4"/>
+    <value t="04.12.2019-14_45_00" v="           4"/>
+  </parameter>
+
+  <parameter id="SW_72">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_03">
+    <value t="04.12.2019-14_50_00" v="           2"/>
+    <value t="04.12.2019-14_45_00" v="           2"/>
+  </parameter>
+
+  <parameter id="CAT_02">
+    <value t="04.12.2019-14_50_00" v="           4"/>
+    <value t="04.12.2019-14_45_00" v="           4"/>
+  </parameter>
+
+  <parameter id="CAT_09">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+  <parameter id="CAT_08">
+    <value t="04.12.2019-14_50_00" v="         nan"/>
+    <value t="04.12.2019-14_45_00" v="         nan"/>
+  </parameter>
+
+</values>

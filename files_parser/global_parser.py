@@ -17,7 +17,7 @@ def get_converted_xml_data(file_values: dict, filename) -> dict:
         if middle_value is not None:
             new_converted_data[key] = middle_value
         else:
-            logging.error(f"The data in file {filename} is damaged. 0 will be written in xml file instead")
+            logging.error(f"The data in file {filename} from provider {key} is damaged. 0 will be written in xml file instead")
             new_converted_data[key] = 0.0
     return new_converted_data
 
