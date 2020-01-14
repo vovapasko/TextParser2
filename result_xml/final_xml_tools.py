@@ -1,3 +1,4 @@
+import logging
 import uuid
 import xml.etree.ElementTree as xml
 from datetime import datetime, timedelta
@@ -19,6 +20,7 @@ def format_header():
 
 
 def combine_xml(root: xml.Element, trees: list):
+    logging.debug("In combine_xml function")
     first = root
     for tree in trees:
         data = tree.getroot()
@@ -121,12 +123,15 @@ def hardcode_identification_subtree():
 def format_measurements_subtree(measurements_list, end_measuring_timestamp):
     start_datetime = end_measuring_timestamp - timedelta(hours=1)
     end_datetime = end_measuring_timestamp
+    logging.debug("In format_measurements_subtree function")
+    logging.info(f"Measurements time: {start_datetime} - {end_datetime}")
     measurement_root = xml.Element("mon:Measurements", ValidAt=format_time(end_datetime + timedelta(minutes=5)))
     dose_rate = xml.SubElement(measurement_root, "mon:DoseRateType").text = "Gamma"
     measurement_period = xml.SubElement(measurement_root, "mon:MeasuringPeriod")
     start_m_time = xml.SubElement(measurement_period, "mon:StartTime").text = format_time(start_datetime)
     end_m_time = xml.SubElement(measurement_period, "mon:EndTime").text = format_time(end_datetime)
     measurements = xml.SubElement(measurement_root, "mon:Measurements")
+    logging.debug("Start extracting data from measurements list")
     for measurement_element in measurements_list:
         for index_key, measurement_value in measurement_element.items():
             measurement = xml.SubElement(measurements, "mon:Measurement")
@@ -149,7 +154,9 @@ def format_excel_data(excel_data):
     pass
 
 
-def get_nested_excel_element(excel_data, index_key):
+def get_nested_excel_element(excel_data, index_key) -> dict:
+    """Iterates through each subdict in excel data and look for the value with given key. If this value is found,
+        function returns it"""
     for provider_key in excel_data:
         tmp = excel_data[provider_key].get(index_key)
         if tmp is not None:
@@ -158,12 +165,14 @@ def get_nested_excel_element(excel_data, index_key):
 
 
 def format_locations_subtree(measurement_data, excel_data):
+    logging.debug("In format_locations_subtree function. Fill stations data from excel file")
     locations_root = xml.Element("loc:Locations")
     for measurement_element in measurement_data:
         for index_key, tmp in measurement_element.items():
             excel_station = get_nested_excel_element(excel_data, index_key)
             location = xml.SubElement(locations_root, "loc:Location", id=(index_key))
-            stantion_name = xml.SubElement(location, "loc:Name").text = excel_station.get('name_eng')
+            # todo try to provide try ... except block if the keys structure for excel_station will be suddenly changed
+            station_name = xml.SubElement(location, "loc:Name").text = excel_station.get('name_eng')
             geo_coord = xml.SubElement(location, "loc:GeographicCoordinates")
             latitude = xml.SubElement(geo_coord, "loc:Latitude").text = str(excel_station.get("latitude"))
             longitude = xml.SubElement(geo_coord, "loc:Longitude").text = str(excel_station.get(
