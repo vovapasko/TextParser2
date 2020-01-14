@@ -1,4 +1,5 @@
 import logging
+import math
 import traceback
 
 from exceptions import NoSuchXmlFilesException
@@ -8,11 +9,16 @@ from files_parser.parser_tools import extract_data_from_file, get_list_middle_va
 from files_parser.validation import correct_interval_value, correct_whole_interval_value
 
 
-def get_converted_xml_data(file_values: dict) -> dict:
+def get_converted_xml_data(file_values: dict, filename) -> dict:
     new_converted_data = {}
     for key, values in file_values.items():
         middle_value = get_list_middle_value(values)
-        new_converted_data[key] = middle_value
+        # todo ask what to do with this situation
+        if middle_value is not None:
+            new_converted_data[key] = middle_value
+        else:
+            logging.error(f"The data in file {filename} is damaged. 0 will be written in xml file instead")
+            new_converted_data[key] = 0.0
     return new_converted_data
 
 
@@ -77,7 +83,7 @@ def get_handled_data(excel_data, python_xml_data):
     try:
         for file_key, file_values in python_xml_data.items():
             logging.debug(f"Start handling data in converted Python data in {file_key.stem} file")
-            one_file_converted_xml_data = get_converted_xml_data(file_values)
+            one_file_converted_xml_data = get_converted_xml_data(file_values, file_key.stem)
             full_converted_xml_data[file_key] = one_file_converted_xml_data
             logging.debug(f"Successfully handled data in converted Python data in {file_key.stem} file")
         handled_xml_data = handle_converted_xml_data(full_converted_xml_data, excel_data)

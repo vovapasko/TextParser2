@@ -1,3 +1,4 @@
+import math
 import traceback
 import xml.etree.ElementTree as xml
 import logging
@@ -35,8 +36,11 @@ def extract_data_from_file(filename_dir, filenames):
 
 
 def get_list_middle_value(values: list):
-    return numpy.mean(values)  # finds mean and rounds to 2 signs after dot
-
+    mean_value = numpy.mean(values)
+    if math.isnan(mean_value):
+        logging.error("List of values are not floats, empty or damaged. Check your data")
+        return None
+    return mean_value
 
 def get_all_keys_from_dict(param_dict):
     tmp_keys = []
