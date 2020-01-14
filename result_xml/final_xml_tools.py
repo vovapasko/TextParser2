@@ -1,7 +1,6 @@
 import uuid
 import xml.etree.ElementTree as xml
 from datetime import datetime, timedelta
-from tools.tools import format_hours
 
 xmlms = {'base': "http://www.iaea.org/2012/IRIX/Format/Base",
          'html': "http://www.w3.org/1999/xhtml",
@@ -151,7 +150,6 @@ def format_excel_data(excel_data):
 
 
 def get_nested_excel_element(excel_data, index_key):
-    element = []
     for provider_key in excel_data:
         tmp = excel_data[provider_key].get(index_key)
         if tmp is not None:
@@ -160,7 +158,6 @@ def get_nested_excel_element(excel_data, index_key):
 
 
 def format_locations_subtree(measurement_data, excel_data):
-    formatted_excel_data = format_excel_data(excel_data)
     locations_root = xml.Element("loc:Locations")
     for measurement_element in measurement_data:
         for index_key, tmp in measurement_element.items():

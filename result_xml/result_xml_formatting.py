@@ -4,7 +4,7 @@ This file and this package contains all tools for formatting resulting xml tree 
 import logging
 import traceback
 
-import credentials
+import configs
 from result_xml.final_xml_tools import format_header, format_identification_subtree, hardcode_identification_subtree, \
     combine_xml, format_measurements_subtree, format_locations_subtree
 
@@ -14,7 +14,7 @@ def get_result_xml_tree(measurement_data: list, excel_data, end_measuring_timest
     header, identification, measurements and locations  """
     header_subtree = format_header()
     try:
-        identification_subtree = format_identification_subtree(credentials.xml_identification_tree_data)
+        identification_subtree = format_identification_subtree(configs.xml_identification_tree_data)
     except Exception:
         logging.error("Error while creating id:Identification xml tree")
         traceback.print_exc()

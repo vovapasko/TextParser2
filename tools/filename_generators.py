@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-from credentials import logs_dir, home_project_directory
+from configs import logs_dir, home_project_directory
 from tools.tools import split_datetime_to_deltas
 
 

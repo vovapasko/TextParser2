@@ -2,19 +2,7 @@ import logging
 import traceback
 from datetime import timedelta, datetime
 
-import credentials
-
-
-def format_minutes(minutes):
-    if int(minutes) < 10:
-        return "0" + str(minutes)  # return '05' instead '5'
-    return minutes
-
-
-def format_hours(hour: int):
-    if hour < 10:
-        return "0" + str(hour)
-    return hour
+import configs
 
 
 def write_xml_to_file(final_xml, write_to_path):
