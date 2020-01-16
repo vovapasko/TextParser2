@@ -126,11 +126,12 @@ def format_measurements_subtree(measurements_list, end_measuring_timestamp):
     logging.debug("In format_measurements_subtree function")
     logging.info(f"Measurements time: {start_datetime} - {end_datetime}")
     measurement_root = xml.Element("mon:Measurements", ValidAt=format_time(end_datetime + timedelta(minutes=5)))
-    dose_rate = xml.SubElement(measurement_root, "mon:DoseRateType").text = "Gamma"
-    measurement_period = xml.SubElement(measurement_root, "mon:MeasuringPeriod")
+    measurement_results = xml.SubElement(measurement_root, "mon:DoseRate")
+    dose_rate_type = xml.SubElement(measurement_results, "mon:DoseRateType").text = "Gamma"
+    measurement_period = xml.SubElement(measurement_results, "mon:MeasuringPeriod")
     start_m_time = xml.SubElement(measurement_period, "mon:StartTime").text = format_time(start_datetime)
     end_m_time = xml.SubElement(measurement_period, "mon:EndTime").text = format_time(end_datetime)
-    measurements = xml.SubElement(measurement_root, "mon:Measurements")
+    measurements = xml.SubElement(measurement_results, "mon:Measurements")
     logging.debug("Start extracting data from measurements list")
     for measurement_element in measurements_list:
         for index_key, measurement_value in measurement_element.items():
