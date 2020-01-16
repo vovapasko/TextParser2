@@ -38,7 +38,6 @@ def extract_data_from_file(filename_dir, filenames):
 def get_list_middle_value(values: list):
     mean_value = numpy.mean(values)
     if math.isnan(mean_value):
-        logging.error("List of values are not floats, empty or damaged. Check your data")
         return None
     return mean_value
 

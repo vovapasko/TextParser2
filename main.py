@@ -3,13 +3,14 @@ from datetime import datetime
 import configs
 from files_parser.global_parser import parse
 from tools import excel_tools
+from tools.ServerWriter import ServerWriter
 from tools.filename_generators import generate_filenames, generate_log_filename, generate_output_xml_filename
 import logging
 from result_xml.result_xml_formatting import get_result_xml_tree
 from tools.tools import write_xml_to_file, handle_datetime
 
 program_start_time = current_datetime = datetime.now()
-custom_hour = 20        # will generate filenames for [custom_hour - 1; custom_hour]
+custom_hour = 20  # will generate filenames for [custom_hour - 1; custom_hour]
 custom_year = 2019
 custom_month = 12
 custom_day = 4
@@ -20,7 +21,7 @@ handled_data_providers = []
 bad_providers = []
 
 
-def start(par_datetime=current_datetime):
+def start(par_datetime=current_datetime, write_to_server=False):
     par_datetime = handle_datetime(par_datetime)
     logfilename = generate_log_filename(program_start_time)
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
@@ -43,8 +44,12 @@ def start(par_datetime=current_datetime):
         for i, provider in zip(range(len(bad_providers)), bad_providers):
             logging.warning(f"{i + 1}. {provider}")
     result_xlm = get_result_xml_tree(handled_data, excel_data, par_datetime)
-    write_xml_to_file(result_xlm, configs.output_directory / generate_output_xml_filename(program_start_time))
+    filename = str(configs.output_directory / generate_output_xml_filename(program_start_time))
+    write_xml_to_file(result_xlm, filename)
+    if write_to_server:
+        writer = ServerWriter()
+        writer.write_to_sftp(filename)
 
 
 if __name__ == '__main__':
-    start(par_datetime=custom_datetime)  # remove a parameter if you want a custom datetime
+    start(par_datetime=custom_datetime, write_to_server=False)  # remove a parameter if you want a custom datetime

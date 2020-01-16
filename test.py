@@ -33,5 +33,5 @@ def start(test_key, custom_datetime, test_filedir):
 
 
 if __name__ == '__main__':
-    test_filedir = configs.home_project_directory / "rubbish"
+    test_filedir = configs.test_data_directory / "with_znpp"
     start('znpp0', custom_datetime, test_filedir)

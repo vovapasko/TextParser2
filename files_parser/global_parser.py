@@ -13,12 +13,8 @@ def get_converted_xml_data(file_values: dict, filename) -> dict:
     new_converted_data = {}
     for key, values in file_values.items():
         middle_value = get_list_middle_value(values)
-        # todo ask what to do with this situation
         if middle_value is not None:
             new_converted_data[key] = middle_value
-        else:
-            logging.error(f"The data in file {filename} from provider {key} is damaged. 0 will be written in xml file instead")
-            new_converted_data[key] = 0.0
     return new_converted_data
 
 
@@ -52,19 +48,24 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
     for file_key, file_value in data_to_handle.items():
         logging.debug(f"Start data converting in {file_key.stem}")
         for index in work_set:
-            interval_value = file_value[index]
-            excel_value = excel_data[index]
-            if correct_interval_value(interval_value, excel_value):
-                multiplier = excel_value['formula']
-                converted_value = interval_value * multiplier
-                full_interval_dict[index].append(converted_value)
+            interval_value = file_value.get(index)
+            excel_value = excel_data.get(index)
+            if interval_value is not None and excel_value is not None:
+                if correct_interval_value(interval_value, excel_value):
+                    multiplier = excel_value['formula']
+                    converted_value = interval_value * multiplier
+                    full_interval_dict[index].append(converted_value)
+                else:
+                    logging.warning(
+                        f"Interval value {interval_value} is more than boundary value {boundary_interval_value}")
+                    logging.warning(f"This value is in index - {index} and in file - {file_key.stem}")
+                    logging.warning("This value won't be included in result xml file")
+                logging.debug(
+                    f"Successfully finished  data converting in {file_key.stem}. Adding to the whole time data")
             else:
-                logging.warning(
-                    f"Interval value {interval_value} is more than boundary value {boundary_interval_value}")
-                logging.warning(f"This value is in index - {index} and in file - {file_key.stem}")
-                logging.warning("This value won't be included in result xml file")
-        logging.debug(f"Successfully finished  data converting in {file_key.stem}. Adding to the whole time data")
+                logging.error(f"Error with data in {file_key.stem} with provider - {index}")
     # handling data for the whole time
+    # todo test program if all full_interval_dict will be empty
     full_interval_dict = find_mean_of_intervals(full_interval_dict)
 
     for key, value in list(full_interval_dict.items()):
