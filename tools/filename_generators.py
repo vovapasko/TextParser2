@@ -33,5 +33,6 @@ def generate_log_filename(par_program_start_time):
 
 
 def generate_output_xml_filename(par_program_start_time):
+    start_str = "UANPP"
     new_str = par_program_start_time.strftime("%Y-%m-%d %X").replace(' ', '_').replace(':', '_')
-    return new_str + ".xml"
+    return start_str + new_str + ".xml"
