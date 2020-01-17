@@ -1,9 +1,7 @@
 import logging
 import traceback
 from datetime import timedelta, datetime
-import arrow
 import pytz
-import configs
 
 
 def write_xml_to_file(final_xml, write_to_path):
