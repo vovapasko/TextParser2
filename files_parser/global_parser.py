@@ -2,15 +2,17 @@ import logging
 import math
 import traceback
 
-from exceptions import NoSuchXmlFilesException
+from exceptions import NoSuchXmlFilesException, NoSuchOneXmlFileException
 from files_parser.validation_constants import boundary_interval_value, boundary_whole_interval_value
 from files_parser.parser_tools import extract_data_from_file, get_list_middle_value, \
     get_all_keys_from_dict, find_mean_of_intervals
 from files_parser.validation import correct_interval_value, correct_whole_interval_value
 
 
-def get_converted_xml_data(file_values: dict, filename) -> dict:
+def get_converted_xml_data(file_values: dict) -> dict:
     new_converted_data = {}
+    if file_values is None:
+        raise NoSuchOneXmlFileException()
     for key, values in file_values.items():
         middle_value = get_list_middle_value(values)
         if middle_value is not None:
@@ -60,8 +62,6 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
                         f"Interval value {interval_value} is more than boundary value {boundary_interval_value}")
                     logging.warning(f"This value is in index - {index} and in file - {file_key.stem}")
                     logging.warning("This value won't be included in result xml file")
-                logging.debug(
-                    f"Successfully finished  data converting in {file_key.stem}. Adding to the whole time data")
             else:
                 logging.error(f"Error with data in {file_key.stem} with provider - {index}")
     # handling data for the whole time
@@ -84,9 +84,12 @@ def get_handled_data(excel_data, python_xml_data):
     try:
         for file_key, file_values in python_xml_data.items():
             logging.debug(f"Start handling data in converted Python data in {file_key.stem} file")
-            one_file_converted_xml_data = get_converted_xml_data(file_values, file_key.stem)
-            full_converted_xml_data[file_key] = one_file_converted_xml_data
-            logging.debug(f"Successfully handled data in converted Python data in {file_key.stem} file")
+            try:
+                one_file_converted_xml_data = get_converted_xml_data(file_values)
+                full_converted_xml_data[file_key] = one_file_converted_xml_data
+                logging.debug(f"Successfully handled data in converted Python data in {file_key.stem} file")
+            except NoSuchOneXmlFileException:
+                logging.error(f"There is no {file_key.stem} file")
         handled_xml_data = handle_converted_xml_data(full_converted_xml_data, excel_data)
         logging.debug(
             "In the end of get_handled_data function. If you see this, data was handled without critical errors")
@@ -98,16 +101,25 @@ def get_handled_data(excel_data, python_xml_data):
         print(traceback.format_exc())
 
 
+def log_successfully_parsed_data(python_xml_data):
+    i = 0
+    for key, value in python_xml_data.items():
+        if value is not None:
+            logging.info(f"{i + 1}. {key.stem}")
+            i += 1
+        else:
+            logging.error(f"The data in {key.stem} were damaged or empty")
+    logging.info(f"The data was parsed from {i} files")
+
+
 def parse(filename_dir, filenames, data, provider_key):
     logging.info(f"Start getting data for provider {provider_key}")
     try:
         python_xml_data = extract_data_from_file(filename_dir, filenames)
-        logging.info(f"The data was parsed from {len(filenames)} files")
-        for i in range(len(filenames)):
-            logging.info(f"{i + 1}. {filenames[i]}")
         try:
             handled_data = get_handled_data(data, python_xml_data)
             logging.info(f"Data from provider '{provider_key}' handled successfully")
+            log_successfully_parsed_data(python_xml_data)
             return handled_data
         except Exception:
             logging.error("Error happened while handling data")

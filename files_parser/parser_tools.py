@@ -20,6 +20,7 @@ def parse_file(file):
             data[child.attrib['id']] = values
         return data
     except Exception:
+        logging.debug("In parser_tools.parse_file function")
         logging.error(f"Error happened during file {file} parsing")
         logging.error(traceback.format_exc())
 

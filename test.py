@@ -10,10 +10,10 @@ from result_xml.result_xml_formatting import get_result_xml_tree
 from tools.tools import write_xml_to_file
 
 program_start_time = datetime.now()
-custom_hour = 9
-custom_year = 2019
-custom_month = 11
-custom_day = 25
+custom_hour = 1
+custom_year = 2020
+custom_month = 1
+custom_day = 1
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 
 
@@ -33,5 +33,5 @@ def start(test_key, custom_datetime, test_filedir):
 
 
 if __name__ == '__main__':
-    test_filedir = configs.test_data_directory / "with_znpp"
-    start('znpp0', custom_datetime, test_filedir)
+    test_filedir = configs.test_data_directory / "danger_data"
+    start('rnpp0', custom_datetime, test_filedir)
