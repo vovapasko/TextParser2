@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import configs
 from files_parser.global_parser import parse
@@ -36,19 +36,24 @@ def start(par_datetime=current_datetime, write_to_server=False):
             handled_data_providers.append(provider_key)
         else:
             bad_providers.append(provider_key)
-    logging.info(f"Started forming data with {len(handled_data_providers)} providers: ")
-    for i, provider in zip(range(len(handled_data_providers)), handled_data_providers):
-        logging.info(f"{i + 1}. {provider}")
     if len(bad_providers) > 0:
         logging.warning(f"There is {len(bad_providers)} provider(s) which data program can't parse: ")
         for i, provider in zip(range(len(bad_providers)), bad_providers):
             logging.warning(f"{i + 1}. {provider}")
-    result_xlm = get_result_xml_tree(handled_data, excel_data, par_datetime)
-    filename = str(configs.output_directory / generate_output_xml_filename(program_start_time))
-    write_xml_to_file(result_xlm, filename)
-    if write_to_server:
-        writer = ServerWriter()
-        writer.write_to_sftp(filename)
+    # means that data from all providers are absent and final xml file shouldn't be formatted
+    if len(handled_data_providers) == 0:
+        logging.error(
+            f"THERE ARE NO DATA WITH GIVEN PROVIDERS FOR THE TIME {par_datetime} - {par_datetime + timedelta(hours=1)}")
+    else:
+        logging.info(f"Started forming data with {len(handled_data_providers)} providers: ")
+        for i, provider in zip(range(len(handled_data_providers)), handled_data_providers):
+            logging.info(f"{i + 1}. {provider}")
+        result_xlm = get_result_xml_tree(handled_data, excel_data, par_datetime)
+        filename = str(configs.output_directory / generate_output_xml_filename(program_start_time))
+        write_xml_to_file(result_xlm, filename)
+        if write_to_server:
+            writer = ServerWriter()
+            writer.write_to_sftp(filename)
 
 
 if __name__ == '__main__':
