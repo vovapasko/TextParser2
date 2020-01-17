@@ -3,6 +3,8 @@ import uuid
 import xml.etree.ElementTree as xml
 from datetime import datetime, timedelta
 
+from tools.tools import convert_to_utc
+
 xmlms = {'base': "http://www.iaea.org/2012/IRIX/Format/Base",
          'html': "http://www.w3.org/1999/xhtml",
          'id': "http://www.iaea.org/2012/IRIX/Format/Identification",
@@ -41,7 +43,7 @@ def format_identification_subtree(file):
     id_root = xml.Element("id:Identification")
     org_reporting = xml.SubElement(id_root, "id:OrganisationReporting").text = file_data.find(
         "OrganisationReporting").text
-    time = format_time(datetime.now())
+    time = format_time(convert_to_utc(datetime.now()))
     report_datetime = xml.SubElement(id_root, "id:DateAndTimeOfCreation").text = str(time)
     report_context = xml.SubElement(id_root, "id:ReportContext").text = file_data.find("ReportContext").text
     report_sequence_number = xml.SubElement(id_root, "id:SequenceNumber").text = file_data.find(
@@ -87,7 +89,7 @@ def hardcode_identification_subtree():
     id_root = xml.Element("id:Identification")
     org_reporting = xml.SubElement(id_root, "id:OrganisationsReporting").text = "meteo.gov.ua"
     time = datetime.now()
-    report_datetime = xml.SubElement(id_root, "id:DateAndTimeOfCreation").text = str(time)
+    report_datetime = xml.SubElement(id_root, "id:DateAndTimeOfCreation").text = str(convert_to_utc(time))
     report_context = xml.SubElement(id_root, "id:ReportContext").text = "Routine"
     report_uuid = xml.SubElement(id_root, "id:ReportUUID").text = str(uuid.uuid4())
     confidentiality = xml.SubElement(id_root, "id:Confidentiality").text = "For Authority Use Only"

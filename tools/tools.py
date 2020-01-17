@@ -1,7 +1,8 @@
 import logging
 import traceback
 from datetime import timedelta, datetime
-
+import arrow
+import pytz
 import configs
 
 
@@ -27,4 +28,9 @@ def split_datetime_to_deltas(end_datetime):
 
 def handle_datetime(par_datetime: datetime) -> datetime:
     """Function handles datetime if given datetime was not custom. It equals minutes and seconds to 0."""
-    return datetime(par_datetime.year,par_datetime.month, par_datetime.day, par_datetime.hour, 0, 0)
+    return datetime(par_datetime.year, par_datetime.month, par_datetime.day, par_datetime.hour, 0, 0)
+
+
+def convert_to_utc(par_datetime):
+    new_time = par_datetime.astimezone(pytz.UTC)
+    return new_time
