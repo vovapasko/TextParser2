@@ -1,3 +1,4 @@
+import traceback
 from datetime import datetime, timedelta
 
 import configs
@@ -25,8 +26,13 @@ def start(par_datetime=current_datetime, write_to_server=False):
     par_datetime = handle_datetime(par_datetime)
     logfilename = generate_log_filename(program_start_time)
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
-    excel_data = excel_tools.get_xlsfile_data(configs.res_filename)
-    logging.debug(f"Data extracted from {configs.res_filename} successfully")
+    try:
+        excel_data = excel_tools.get_xlsfile_data(configs.res_filename)
+        logging.debug(f"Data extracted from {configs.res_filename} successfully")
+    except Exception:
+        logging.critical("Error happened while was trying to extract data from Excel file. Please check it.")
+        logging.error(traceback.format_exc())
+        return None
     for provider_key, value in excel_data.items():
         filenames[provider_key] = (generate_filenames(provider_key, par_datetime))
     for provider_key, value in excel_data.items():
