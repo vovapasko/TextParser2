@@ -33,6 +33,7 @@ def start(par_datetime=current_datetime, write_to_server=False):
         logging.critical("Error happened while was trying to extract data from Excel file. Please check it.")
         logging.error(traceback.format_exc())
         return None
+    logging.info(f"Start extracting xml files from directory {configs.path_to_files}")
     for provider_key, value in excel_data.items():
         filenames[provider_key] = (generate_filenames(provider_key, par_datetime))
     for provider_key, value in excel_data.items():
