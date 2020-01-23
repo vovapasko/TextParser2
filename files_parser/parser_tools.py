@@ -42,6 +42,7 @@ def get_list_middle_value(values: list):
         return None
     return mean_value
 
+
 def get_all_keys_from_dict(param_dict):
     tmp_keys = []
     for file_key, file_value in param_dict.items():
@@ -56,3 +57,12 @@ def find_mean_of_intervals(param_dict):
     for key, value in param_dict.items():
         return_dict[key] = get_list_middle_value(value)
     return return_dict
+
+
+def remove_empty_dicts(full_interval_dict):
+    new_dict = dict()
+    """Needed for checking the situation where all elements from index didn't pass validation"""
+    for key, value in full_interval_dict.items():
+        if len(value) > 0:
+            new_dict[key] = value
+    return new_dict

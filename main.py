@@ -11,10 +11,10 @@ from result_xml.result_xml_formatting import get_result_xml_tree
 from tools.tools import write_xml_to_file, handle_datetime, convert_to_utc
 
 program_start_time = current_datetime = datetime.now()
-custom_hour = 1  # will generate filenames for [custom_hour - 1; custom_hour]
-custom_year = 2020
-custom_month = 1
-custom_day = 1
+custom_hour = 20  # will generate filenames for [custom_hour - 1; custom_hour]
+custom_year = 2019
+custom_month = 7
+custom_day = 3
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 filenames = {}
 handled_data = []

@@ -5,7 +5,7 @@ import traceback
 from exceptions import NoSuchXmlFilesException, NoSuchOneXmlFileException
 from files_parser.validation_constants import boundary_interval_value, boundary_whole_interval_value
 from files_parser.parser_tools import extract_data_from_file, get_list_middle_value, \
-    get_all_keys_from_dict, find_mean_of_intervals
+    get_all_keys_from_dict, find_mean_of_intervals, remove_empty_dicts
 from files_parser.validation import correct_interval_value, correct_whole_interval_value
 
 
@@ -65,8 +65,8 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
             else:
                 logging.error(f"Error with data in {file_key.stem} with provider - {index}")
     # handling data for the whole time
-    # todo test program if all full_interval_dict will be empty
-    full_interval_dict = find_mean_of_intervals(full_interval_dict)
+    handled_full_interval_dict = remove_empty_dicts(full_interval_dict)
+    full_interval_dict = find_mean_of_intervals(handled_full_interval_dict)
 
     for key, value in list(full_interval_dict.items()):
         if not correct_whole_interval_value(value):
