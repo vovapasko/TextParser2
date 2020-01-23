@@ -123,8 +123,8 @@ def hardcode_identification_subtree():
 
 
 def format_measurements_subtree(measurements_list, end_measuring_timestamp):
-    start_datetime = end_measuring_timestamp - timedelta(hours=1)
-    end_datetime = end_measuring_timestamp
+    start_datetime = convert_to_utc(end_measuring_timestamp - timedelta(hours=1))
+    end_datetime = convert_to_utc(end_measuring_timestamp)
     logging.debug("In format_measurements_subtree function")
     logging.info(f"Measurements time: {start_datetime} - {end_datetime}")
     measurement_root = xml.Element("mon:Measurements", ValidAt=format_time(end_datetime + timedelta(minutes=5)))
