@@ -8,7 +8,7 @@ from tools.ServerWriter import ServerWriter
 from tools.filename_generators import generate_filenames, generate_log_filename, generate_output_xml_filename
 import logging
 from result_xml.result_xml_formatting import get_result_xml_tree
-from tools.tools import write_xml_to_file, handle_datetime
+from tools.tools import write_xml_to_file, handle_datetime, convert_to_utc
 
 program_start_time = current_datetime = datetime.now()
 custom_hour = 1  # will generate filenames for [custom_hour - 1; custom_hour]
@@ -35,7 +35,7 @@ def start(par_datetime=current_datetime, write_to_server=False):
         return None
     logging.info(f"Start extracting xml files from directory {configs.path_to_files}")
     for provider_key, value in excel_data.items():
-        filenames[provider_key] = (generate_filenames(provider_key, par_datetime))
+        filenames[provider_key] = (generate_filenames(provider_key, convert_to_utc(par_datetime)))
     for provider_key, value in excel_data.items():
         tmp = parse(configs.path_to_files, filenames[provider_key], value, provider_key)
         if tmp is not None:
