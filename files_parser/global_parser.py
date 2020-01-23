@@ -50,6 +50,8 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
     for file_key, file_value in data_to_handle.items():
         logging.debug(f"Start data converting in {file_key.stem}")
         for index in work_set:
+            if index == 'XS14R01B0':
+                print()
             interval_value = file_value.get(index)
             excel_value = excel_data.get(index)
             if interval_value is not None and excel_value is not None:

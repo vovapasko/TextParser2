@@ -14,7 +14,7 @@ program_start_time = current_datetime = datetime.now()
 custom_hour = 20  # will generate filenames for [custom_hour - 1; custom_hour]
 custom_year = 2019
 custom_month = 7
-custom_day = 3
+custom_day = 1
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 filenames = {}
 handled_data = []
@@ -50,7 +50,8 @@ def start(par_datetime=current_datetime, write_to_server=False):
     # means that data from all providers are absent and final xml file shouldn't be formatted
     if len(handled_data_providers) == 0:
         logging.error(
-            f"THERE ARE NO DATA WITH GIVEN PROVIDERS FOR THE TIME {par_datetime} - {par_datetime + timedelta(hours=1)}")
+            f"THERE ARE NO DATA WITH GIVEN PROVIDERS FOR THE TIME {convert_to_utc(par_datetime) - timedelta(hours=1)} -"
+            f" {convert_to_utc(par_datetime)}")
     else:
         logging.info(f"Started forming data with {len(handled_data_providers)} providers: ")
         for i, provider in zip(range(len(handled_data_providers)), handled_data_providers):
