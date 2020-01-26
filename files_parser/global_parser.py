@@ -93,6 +93,7 @@ def get_handled_data(excel_data, python_xml_data):
 
 def log_successfully_parsed_data(python_xml_data):
     i = 0
+    logging.info("--------PROVIDERS INFORMATION--------")
     for key, value in python_xml_data.items():
         if value is not None:
             logging.info(f"{i + 1}. {key.stem}")
@@ -100,6 +101,29 @@ def log_successfully_parsed_data(python_xml_data):
         else:
             logging.error(f"The data in {key.stem} were damaged or empty")
     logging.info(f"The data was parsed from {i} files")
+
+
+def log_good_indexes(good_indexes):
+    logging.info("--------GOOD INDEXES INFORMATION--------")
+    if len(good_indexes) == 0:
+        logging.warning("THERE ARE NO GOOD INDEXES. CHECK YOUR DATA")
+    else:
+        logging.info(f"THERE ARE {len(good_indexes)} INDEXES, WHICH INCLUDED IN FINAL XML")
+
+
+def log_bad_indexes(good_indexes, all_indexes):
+    good_indexes_keys = set(good_indexes.keys())
+    all_indexes_keys = set(all_indexes.keys())
+    bad_indexes_keys = all_indexes_keys.difference(good_indexes_keys)
+    logging.info("--------BAD INDEXES INFORMATION--------")
+    if len(bad_indexes_keys) == 0:
+        logging.info("THERE ARE NO BAD INDEXES")
+    else:
+        i = 1
+        logging.warning(f"FOUND {len(bad_indexes_keys)} BAD INDEX(ES)")
+        for element in bad_indexes_keys:
+            logging.warning(f"{i}. {element}")
+            i += 1
 
 
 def parse(filename_dir, filenames, data, provider_key):
@@ -110,6 +134,8 @@ def parse(filename_dir, filenames, data, provider_key):
             handled_data = get_handled_data(data, python_xml_data)
             logging.info(f"Data from provider '{provider_key}' handled successfully")
             log_successfully_parsed_data(python_xml_data)
+            log_good_indexes(handled_data)
+            log_bad_indexes(handled_data, data)
             return handled_data
         except Exception:
             logging.error("Error happened while handling data")
