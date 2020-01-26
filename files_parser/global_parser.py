@@ -20,15 +20,6 @@ def get_converted_xml_data(file_values: dict) -> dict:
     return new_converted_data
 
 
-def log_uncommon_elements(excel_data_keys_set, data_to_handle_keys_set):
-    difference = data_to_handle_keys_set.difference(excel_data_keys_set)
-    logging.warning(
-        f"There are {len(difference)} amount of indexes which are not in excel file."
-        f" These indexes won't be included in final .xml file")
-    for element, i in zip(difference, range(len(difference))):
-        logging.info(f"{i + 1}. {element}")
-
-
 def init_dict(keys) -> dict:
     """Init dict with structure {key: []}"""
     return_dict = {}
@@ -42,7 +33,6 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
     logging.debug("In handle_converted_xml_data function")
     excel_data_keys_set = set(excel_data.keys())
     data_to_handle_keys_set = get_all_keys_from_dict(data_to_handle)
-    log_uncommon_elements(excel_data_keys_set, data_to_handle_keys_set)
     work_set = excel_data_keys_set.intersection(
         data_to_handle_keys_set)  # indexes which are in excel and xml file simultaneously
     full_interval_dict = init_dict(work_set)
@@ -50,8 +40,6 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
     for file_key, file_value in data_to_handle.items():
         logging.debug(f"Start data converting in {file_key.stem}")
         for index in work_set:
-            if index == 'XS14R01B0':
-                print()
             interval_value = file_value.get(index)
             excel_value = excel_data.get(index)
             if interval_value is not None and excel_value is not None:
