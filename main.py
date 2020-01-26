@@ -12,10 +12,10 @@ from tools.tools import write_xml_to_file, handle_datetime, convert_to_utc
 
 program_start_time = current_datetime = datetime.now()
 # please note that hour you typed below will be converted to utc
-custom_hour = 3  # will generate filenames for [custom_hour - 1; custom_hour]
+custom_hour = 13  # will generate filenames for [custom_hour - 1; custom_hour]
 custom_year = 2020
 custom_month = 1
-custom_day = 1
+custom_day = 23
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 filenames = {}
 handled_data = []
