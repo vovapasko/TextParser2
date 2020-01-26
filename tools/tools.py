@@ -25,8 +25,9 @@ def split_datetime_to_deltas(end_datetime):
 
 
 def handle_datetime(par_datetime: datetime) -> datetime:
+    new_datetime = datetime(par_datetime.year, par_datetime.month, par_datetime.day, par_datetime.hour, 0, 0)
     """Function handles datetime if given datetime was not custom. It equals minutes and seconds to 0."""
-    return datetime(par_datetime.year, par_datetime.month, par_datetime.day, par_datetime.hour, 0, 0)
+    return convert_to_utc(new_datetime)
 
 
 def convert_to_utc(par_datetime):

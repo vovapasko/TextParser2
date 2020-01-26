@@ -11,9 +11,10 @@ from result_xml.result_xml_formatting import get_result_xml_tree
 from tools.tools import write_xml_to_file, handle_datetime, convert_to_utc
 
 program_start_time = current_datetime = datetime.now()
-custom_hour = 20  # will generate filenames for [custom_hour - 1; custom_hour]
-custom_year = 2019
-custom_month = 7
+# please note that hour you typed below will be converted to utc
+custom_hour = 3  # will generate filenames for [custom_hour - 1; custom_hour]
+custom_year = 2020
+custom_month = 1
 custom_day = 1
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 filenames = {}
@@ -35,7 +36,7 @@ def start(par_datetime=current_datetime, write_to_server=False):
         return None
     logging.info(f"Start extracting xml files from directory {configs.path_to_files}")
     for provider_key, value in excel_data.items():
-        filenames[provider_key] = (generate_filenames(provider_key, convert_to_utc(par_datetime)))
+        filenames[provider_key] = (generate_filenames(provider_key, par_datetime))
     for provider_key, value in excel_data.items():
         tmp = parse(configs.path_to_files, filenames[provider_key], value, provider_key)
         if tmp is not None:
@@ -50,8 +51,8 @@ def start(par_datetime=current_datetime, write_to_server=False):
     # means that data from all providers are absent and final xml file shouldn't be formatted
     if len(handled_data_providers) == 0:
         logging.error(
-            f"THERE ARE NO DATA WITH GIVEN PROVIDERS FOR THE TIME {convert_to_utc(par_datetime) - timedelta(hours=1)} -"
-            f" {convert_to_utc(par_datetime)}")
+            f"THERE ARE NO DATA WITH GIVEN PROVIDERS FOR THE TIME {par_datetime - timedelta(hours=1)} -"
+            f" {par_datetime}")
     else:
         logging.info(f"Started forming data with {len(handled_data_providers)} providers: ")
         for i, provider in zip(range(len(handled_data_providers)), handled_data_providers):

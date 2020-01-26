@@ -6,7 +6,7 @@ import pathlib
 
 home_project_directory = pathlib.Path(__file__).parent
 test_data_directory = home_project_directory / "test_data"
-path_to_files = test_data_directory / "danger_data" / "value"
+path_to_files = test_data_directory / "rubbish"
 # path_to_files = pathlib.Path("c:/custom_folder/danger_data")
 logs_dir = home_project_directory / "logs"
 res_dir = home_project_directory / "res"
