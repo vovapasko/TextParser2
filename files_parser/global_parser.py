@@ -5,19 +5,9 @@ import traceback
 from exceptions import NoSuchXmlFilesException, NoSuchOneXmlFileException
 from files_parser.validation_constants import boundary_interval_value, boundary_whole_interval_value
 from files_parser.parser_tools import extract_data_from_file, get_list_middle_value, \
-    get_all_keys_from_dict, find_mean_of_intervals, remove_empty_dicts
+    get_all_keys_from_dict, find_mean_of_intervals, remove_empty_dicts, remove_nans, init_dict, log_good_indexes, \
+    log_bad_indexes, log_successfully_parsed_data
 from files_parser.validation import correct_interval_value, correct_whole_interval_value
-
-
-def remove_nans(par_lst):
-    """Some lists can contain data with nan values
-    This function should delete such values and leave only float data in list
-    """
-    handled_list = []
-    for element in par_lst:
-        if not math.isnan(element):
-            handled_list.append(element)
-    return handled_list
 
 
 def get_converted_xml_data(file_values: dict) -> dict:
@@ -30,14 +20,6 @@ def get_converted_xml_data(file_values: dict) -> dict:
         if middle_value is not None:
             new_converted_data[key] = middle_value
     return new_converted_data
-
-
-def init_dict(keys) -> dict:
-    """Init dict with structure {key: []}"""
-    return_dict = {}
-    for key in keys:
-        return_dict[key] = []
-    return return_dict
 
 
 def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
@@ -102,41 +84,6 @@ def get_handled_data(excel_data, python_xml_data):
         logging.exception("Something went wrong here")
         logging.error(traceback.format_exc())
         print(traceback.format_exc())
-
-
-def log_successfully_parsed_data(python_xml_data):
-    i = 0
-    logging.info("--------PROVIDERS INFORMATION--------")
-    for key, value in python_xml_data.items():
-        if value is not None:
-            logging.info(f"{i + 1}. {key.stem}")
-            i += 1
-        else:
-            logging.error(f"The data in {key.stem} were damaged or empty")
-    logging.info(f"The data was parsed from {i} files")
-
-
-def log_good_indexes(good_indexes):
-    logging.info("--------GOOD INDEXES INFORMATION--------")
-    if len(good_indexes) == 0:
-        logging.warning("THERE ARE NO GOOD INDEXES. CHECK YOUR DATA")
-    else:
-        logging.info(f"THERE ARE {len(good_indexes)} INDEXES, WHICH INCLUDED IN FINAL XML")
-
-
-def log_bad_indexes(good_indexes, all_indexes):
-    good_indexes_keys = set(good_indexes.keys())
-    all_indexes_keys = set(all_indexes.keys())
-    bad_indexes_keys = all_indexes_keys.difference(good_indexes_keys)
-    logging.info("--------BAD INDEXES INFORMATION--------")
-    if len(bad_indexes_keys) == 0:
-        logging.info("THERE ARE NO BAD INDEXES")
-    else:
-        i = 1
-        logging.warning(f"FOUND {len(bad_indexes_keys)} BAD INDEX(ES)")
-        for element in bad_indexes_keys:
-            logging.warning(f"{i}. {element}")
-            i += 1
 
 
 def parse(filename_dir, filenames, data, provider_key):

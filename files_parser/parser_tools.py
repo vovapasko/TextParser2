@@ -66,3 +66,57 @@ def remove_empty_dicts(full_interval_dict):
         if len(value) > 0:
             new_dict[key] = value
     return new_dict
+
+
+def remove_nans(par_lst):
+    """Some lists can contain data with nan values
+    This function should delete such values and leave only float data in list
+    """
+    handled_list = []
+    for element in par_lst:
+        if not math.isnan(element):
+            handled_list.append(element)
+    return handled_list
+
+
+def init_dict(keys) -> dict:
+    """Init dict with structure {key: []}"""
+    return_dict = {}
+    for key in keys:
+        return_dict[key] = []
+    return return_dict
+
+
+def log_good_indexes(good_indexes):
+    logging.info("--------GOOD INDEXES INFORMATION--------")
+    if len(good_indexes) == 0:
+        logging.warning("THERE ARE NO GOOD INDEXES. CHECK YOUR DATA")
+    else:
+        logging.info(f"THERE ARE {len(good_indexes)} INDEXES, WHICH INCLUDED IN FINAL XML")
+
+
+def log_bad_indexes(good_indexes, all_indexes):
+    good_indexes_keys = set(good_indexes.keys())
+    all_indexes_keys = set(all_indexes.keys())
+    bad_indexes_keys = all_indexes_keys.difference(good_indexes_keys)
+    logging.info("--------BAD INDEXES INFORMATION--------")
+    if len(bad_indexes_keys) == 0:
+        logging.info("THERE ARE NO BAD INDEXES")
+    else:
+        i = 1
+        logging.warning(f"FOUND {len(bad_indexes_keys)} BAD INDEX(ES)")
+        for element in bad_indexes_keys:
+            logging.warning(f"{i}. {element}")
+            i += 1
+
+
+def log_successfully_parsed_data(python_xml_data):
+    i = 0
+    logging.info("--------PROVIDERS INFORMATION--------")
+    for key, value in python_xml_data.items():
+        if value is not None:
+            logging.info(f"{i + 1}. {key.stem}")
+            i += 1
+        else:
+            logging.error(f"The data in {key.stem} were damaged or empty")
+    logging.info(f"The data was parsed from {i} files")
