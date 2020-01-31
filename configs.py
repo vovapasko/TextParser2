@@ -7,7 +7,7 @@ import pathlib
 home_project_directory = pathlib.Path(__file__).parent
 test_data_directory = home_project_directory / "test_data"
 # path_to_files = test_data_directory / "rubbish"
-path_to_files = pathlib.Path("c:/custom_folder/data_test")
+path_to_files = pathlib.Path("c:/custom_folder/Project")
 logs_dir = home_project_directory / "logs"
 res_dir = home_project_directory / "res"
 res_filename = res_dir / "Dovidnyk_NPP_Irmis.xls"

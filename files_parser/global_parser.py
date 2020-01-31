@@ -9,12 +9,24 @@ from files_parser.parser_tools import extract_data_from_file, get_list_middle_va
 from files_parser.validation import correct_interval_value, correct_whole_interval_value
 
 
+def remove_nans(par_lst):
+    """Some lists can contain data with nan values
+    This function should delete such values and leave only float data in list
+    """
+    handled_list = []
+    for element in par_lst:
+        if not math.isnan(element):
+            handled_list.append(element)
+    return handled_list
+
+
 def get_converted_xml_data(file_values: dict) -> dict:
     new_converted_data = {}
     if file_values is None:
         raise NoSuchOneXmlFileException()
     for key, values in file_values.items():
-        middle_value = get_list_middle_value(values)
+        handled_list = remove_nans(values)
+        middle_value = get_list_middle_value(handled_list)
         if middle_value is not None:
             new_converted_data[key] = middle_value
     return new_converted_data
@@ -54,6 +66,7 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
                     logging.warning("This value won't be included in result xml file")
             else:
                 logging.error(f"Error with data in {file_key.stem} with provider - {index}")
+                logging.error(f"This happened probably because the entry file is empty or has none values")
     # handling data for the whole time
     handled_full_interval_dict = remove_empty_dicts(full_interval_dict)
     full_interval_dict = find_mean_of_intervals(handled_full_interval_dict)
