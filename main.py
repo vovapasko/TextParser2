@@ -12,15 +12,17 @@ from tools.tools import write_xml_to_file, handle_datetime, convert_to_utc
 
 program_start_time = current_datetime = datetime.now()
 # please note that hour you typed below will be converted to utc
-custom_hour = 13  # will generate filenames for [custom_hour - 1; custom_hour]
-custom_year = 2020
-custom_month = 1
-custom_day = 29
+custom_hour = 20  # will generate filenames for [custom_hour - 1; custom_hour]
+custom_year = 2019
+custom_month = 7
+custom_day = 2
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 filenames = {}
 handled_data = []
 handled_data_providers = []
 bad_providers = []
+one_interval_bad_values = []
+whole_interval_bad_values = []
 
 
 def start(par_datetime=current_datetime, write_to_server=False):
@@ -40,8 +42,12 @@ def start(par_datetime=current_datetime, write_to_server=False):
     for provider_key, value in excel_data.items():
         tmp = parse(configs.path_to_files, filenames[provider_key], value, provider_key)
         if tmp is not None:
-            handled_data.append(tmp)
+            handled_data.append(tmp["good_values"])
             handled_data_providers.append(provider_key)
+            if len(tmp["high_one_interval_values"]) > 0:
+                one_interval_bad_values.append(tmp["high_one_interval_values"])
+            if len(tmp["high_whole_interval_values"] > 0):
+                whole_interval_bad_values.append(tmp["high_whole_interval_values"])
         else:
             bad_providers.append(provider_key)
     if len(bad_providers) > 0:

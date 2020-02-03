@@ -40,23 +40,28 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict) -> dict:
                 if correct_interval_value(interval_value, excel_value):
                     multiplier = excel_value['formula']
                     converted_value = interval_value * multiplier
-                    full_interval_dict[index].append(converted_value)
+                    full_interval_dict["good_values"][index].append(converted_value)
                 else:
-                    logging.warning(
-                        f"Interval value {interval_value} is more than boundary value {boundary_interval_value}")
+                    warn_message = f"Interval value {interval_value} is more than boundary value " \
+                                   f"{boundary_interval_value} on 5 minutes interval"
+                    full_interval_dict["high_one_interval_values"].append(
+                        {"value": interval_value, "index": index, "file": file_key.stem, "message": warn_message})
+                    logging.warning(warn_message)
                     logging.warning(f"This value is in index - {index} and in file - {file_key.stem}")
                     logging.warning("This value won't be included in result xml file")
             else:
                 logging.error(f"Error with data in {file_key.stem} with provider - {index}")
                 logging.error(f"This happened probably because the entry file is empty or has none values")
     # handling data for the whole time
-    handled_full_interval_dict = remove_empty_dicts(full_interval_dict)
-    full_interval_dict = find_mean_of_intervals(handled_full_interval_dict)
+    handled_full_interval_dict = remove_empty_dicts(full_interval_dict["good_values"])
+    full_interval_dict["good_values"] = find_mean_of_intervals(handled_full_interval_dict)
 
-    for key, value in list(full_interval_dict.items()):
+    for key, value in list(full_interval_dict["good_values"].items()):
         if not correct_whole_interval_value(value):
-            full_interval_dict.pop(key, None)
-            logging.warning(f"Final value {value} is is more than boundary value {boundary_whole_interval_value}")
+            full_interval_dict["good_values"].pop(key, None)
+            warn_message = f"Final value {value} is is more than boundary value {boundary_whole_interval_value} on 1 hour interval"
+            full_interval_dict["high_whole_interval_values"].append({"value": boundary_whole_interval_value, "index": key, "message": warn_message})
+            logging.warning(warn_message)
             logging.warning(f"This value is in index - {key}")
             logging.warning("This value won't be included in result xml file")
     logging.debug("In the end of handle_converted_xml_data function")
@@ -94,8 +99,8 @@ def parse(filename_dir, filenames, data, provider_key):
             handled_data = get_handled_data(data, python_xml_data)
             logging.info(f"Data from provider '{provider_key}' handled successfully")
             log_successfully_parsed_data(python_xml_data)
-            log_good_indexes(handled_data)
-            log_bad_indexes(handled_data, data)
+            log_good_indexes(handled_data["good_values"])
+            log_bad_indexes(handled_data["good_values"], data)
             return handled_data
         except Exception:
             logging.error("Error happened while handling data")

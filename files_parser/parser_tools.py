@@ -80,10 +80,16 @@ def remove_nans(par_lst):
 
 
 def init_dict(keys) -> dict:
-    """Init dict with structure {key: []}"""
-    return_dict = {}
+    """Init dict with structure
+    {
+    "good_values": {key: []},
+    }
+    """
+    return_dict = {"good_values": {},
+                   "high_one_interval_values": [],
+                   "high_whole_interval_values": []}
     for key in keys:
-        return_dict[key] = []
+        return_dict["good_values"][key] = []
     return return_dict
 
 
