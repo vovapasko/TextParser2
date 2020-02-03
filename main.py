@@ -4,11 +4,12 @@ from datetime import datetime, timedelta
 import configs
 from files_parser.global_parser import parse
 from tools import excel_tools
+from tools.MailSender import MailSender
 from tools.ServerWriter import ServerWriter
 from tools.filename_generators import generate_filenames, generate_log_filename, generate_output_xml_filename
 import logging
 from result_xml.result_xml_formatting import get_result_xml_tree
-from tools.tools import write_xml_to_file, handle_datetime, convert_to_utc
+from tools.tools import write_xml_to_file, handle_datetime, convert_to_utc, handle_mail_content
 
 program_start_time = current_datetime = datetime.now()
 # please note that hour you typed below will be converted to utc
@@ -25,7 +26,7 @@ one_interval_bad_values = []
 whole_interval_bad_values = []
 
 
-def start(par_datetime=current_datetime, write_to_server=False):
+def start(par_datetime=current_datetime, write_to_server=False, send_mail=False):
     par_datetime = handle_datetime(par_datetime)
     logfilename = generate_log_filename(program_start_time)
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
@@ -46,7 +47,7 @@ def start(par_datetime=current_datetime, write_to_server=False):
             handled_data_providers.append(provider_key)
             if len(tmp["high_one_interval_values"]) > 0:
                 one_interval_bad_values.append(tmp["high_one_interval_values"])
-            if len(tmp["high_whole_interval_values"] > 0):
+            if len(tmp["high_whole_interval_values"]) > 0:
                 whole_interval_bad_values.append(tmp["high_whole_interval_values"])
         else:
             bad_providers.append(provider_key)
@@ -69,7 +70,14 @@ def start(par_datetime=current_datetime, write_to_server=False):
         if write_to_server:
             writer = ServerWriter()
             writer.write_to_sftp(filename)
+        if send_mail and (len(one_interval_bad_values) > 0 or len(whole_interval_bad_values) > 0):
+            mailSender = MailSender()
+            mailSender.set_subject(configs.mail_subject)
+            content = handle_mail_content(one_interval_bad_values, whole_interval_bad_values)
+            mailSender.set_content(content)
+            mailSender.send_message()
 
 
 if __name__ == '__main__':
-    start(par_datetime=custom_datetime, write_to_server=False)  # remove a parameter if you want a custom datetime
+    start(par_datetime=custom_datetime, write_to_server=False,
+          send_mail=True)  # remove a parameter if you want a custom datetime

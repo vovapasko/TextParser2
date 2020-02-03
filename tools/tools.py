@@ -1,7 +1,11 @@
 import logging
+import os
 import traceback
 from datetime import timedelta, datetime
 import pytz
+import xml.etree.ElementTree as xml
+
+from configs import credentials_filename
 
 
 def write_xml_to_file(final_xml, write_to_path):
@@ -33,3 +37,29 @@ def handle_datetime(par_datetime: datetime) -> datetime:
 def convert_to_utc(par_datetime):
     new_time = par_datetime.astimezone(pytz.UTC)
     return new_time
+
+
+def get_data_from_cred(key, subroot):
+    """subroot is one of the main subfolders where function should search a key. For example <ServerData>"""
+    try:
+        file = xml.parse(credentials_filename)
+        root = file.getroot()
+        subdir = root.find(subroot)
+        value = subdir.find(key).text
+        return value
+    except Exception:
+        logging.error(f"Error happened while getting {subroot}-{key} from the credentials file")
+        return key
+
+
+def handle_mail_content(one_interval_bad_values, whole_interval_bad_values):
+    msg = ""
+    for elements in one_interval_bad_values:
+        for elem in elements:
+            msg += elem["message"]
+            msg += os.linesep
+    for elements in whole_interval_bad_values:
+        for elem in elements:
+            msg += elem["message"]
+            msg += os.linesep
+    return msg

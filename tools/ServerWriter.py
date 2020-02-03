@@ -7,6 +7,7 @@ import pysftp
 import xml.etree.ElementTree as xml
 
 from configs import credentials_filename
+from tools.tools import get_data_from_cred
 
 
 class ServerWriter():
@@ -21,7 +22,8 @@ class ServerWriter():
         try:
             cnopts = pysftp.CnOpts()
             cnopts.hostkeys = None
-            with pysftp.Connection(host=self.ftp_host, username=self.ftp_username, password=self.ftp_password, cnopts=cnopts) as sftp:
+            with pysftp.Connection(host=self.ftp_host, username=self.ftp_username, password=self.ftp_password,
+                                   cnopts=cnopts) as sftp:
                 with sftp.cd(self.remote_folder):  # temporarily chdir to public
                     sftp.put(filename)  # upload file to public/ on remote
             logging.info("Successfully send the file to sftp server")
@@ -30,12 +32,5 @@ class ServerWriter():
             logging.error("Error happened while writing file to sftp")
             traceback.print_exc()
 
-    def get_data_from_cred(self, key):
-        try:
-            file = xml.parse(credentials_filename)
-            root = file.getroot()
-            value = root.find(key).text
-            return value
-        except Exception:
-            logging.error(f"Error happened while getting {key} from the credentials file")
-            return key
+    def get_data_from_cred(self, key, subroot="ServerData"):
+        return get_data_from_cred(key, subroot)

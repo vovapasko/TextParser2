@@ -14,3 +14,6 @@ res_filename = res_dir / "Dovidnyk_NPP_Irmis.xls"
 credentials_filename = res_dir / "credentials.xml"
 xml_identification_tree_data = res_dir / "id.xml"
 output_directory = home_project_directory / "output"
+
+# constant information for mail sending
+mail_subject = "Перевищення порога"
