@@ -80,5 +80,5 @@ def start(par_datetime=current_datetime, write_to_server=False, send_mail=False)
 
 
 if __name__ == '__main__':
-    start(par_datetime=custom_datetime, write_to_server=False,
-          send_mail=True)  # remove a parameter if you want a custom datetime
+    start(par_datetime=program_start_time, write_to_server=False,
+          send_mail=False)  # remove a parameter if you want a custom datetime
