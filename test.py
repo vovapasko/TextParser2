@@ -17,7 +17,7 @@ custom_day = 1
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 
 
-def start(test_key, custom_datetime, test_filedir):
+def start(test_key, custom_datetime, test_filedir, emergency_mode=False):
     logfilename = generate_log_filename(program_start_time)
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
     logging.debug("Started test mode")
@@ -26,7 +26,7 @@ def start(test_key, custom_datetime, test_filedir):
     filenames = dict()
     filenames[test_key] = generate_filenames(test_key, custom_datetime)
     handled_data = list()
-    handled_data.append(parse(test_filedir, filenames[test_key], excel_data[test_key], test_key))
+    handled_data.append(parse(test_filedir, filenames[test_key], excel_data[test_key], test_key, emergency_mode))
     final_xml = get_result_xml_tree(handled_data, excel_data, custom_datetime)
     logging.info("Successfully created result xml file")
     write_xml_to_file(final_xml, configs.output_directory / generate_output_xml_filename(program_start_time))
