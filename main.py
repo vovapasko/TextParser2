@@ -16,7 +16,7 @@ program_start_time = current_datetime = datetime.now()
 custom_hour = 20  # will generate filenames for [custom_hour - 1; custom_hour]
 custom_year = 2019
 custom_month = 7
-custom_day = 3
+custom_day = 2
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 filenames = {}
 handled_data = []
@@ -81,4 +81,4 @@ def start(par_datetime=current_datetime, write_to_server=False, send_mail=False,
 
 if __name__ == '__main__':
     start(par_datetime=custom_datetime, write_to_server=False,
-          send_mail=False, emergency_mode=True)
+          send_mail=False, emergency_mode=False)
