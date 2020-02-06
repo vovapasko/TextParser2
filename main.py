@@ -16,7 +16,7 @@ program_start_time = current_datetime = datetime.now()
 custom_hour = 20  # will generate filenames for [custom_hour - 1; custom_hour]
 custom_year = 2019
 custom_month = 7
-custom_day = 2
+custom_day = 3
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 filenames = {}
 handled_data = []
@@ -26,7 +26,7 @@ one_interval_bad_values = []
 whole_interval_bad_values = []
 
 
-def start(par_datetime=current_datetime, write_to_server=False, send_mail=False):
+def start(par_datetime=current_datetime, write_to_server=False, send_mail=False, emergency_mode=False):
     par_datetime = handle_datetime(par_datetime)
     logfilename = generate_log_filename(program_start_time)
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
@@ -41,7 +41,7 @@ def start(par_datetime=current_datetime, write_to_server=False, send_mail=False)
     for provider_key, value in excel_data.items():
         filenames[provider_key] = (generate_filenames(provider_key, par_datetime))
     for provider_key, value in excel_data.items():
-        tmp = parse(configs.path_to_files, filenames[provider_key], value, provider_key)
+        tmp = parse(configs.path_to_files, filenames[provider_key], value, provider_key, emergency_mode)
         if tmp is not None:
             handled_data.append(tmp["good_values"])
             handled_data_providers.append(provider_key)
@@ -80,5 +80,5 @@ def start(par_datetime=current_datetime, write_to_server=False, send_mail=False)
 
 
 if __name__ == '__main__':
-    start(par_datetime=program_start_time, write_to_server=False,
-          send_mail=False)  # remove a parameter if you want a custom datetime
+    start(par_datetime=custom_datetime, write_to_server=False,
+          send_mail=False, emergency_mode=True)
