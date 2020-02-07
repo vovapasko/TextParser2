@@ -30,6 +30,8 @@ def start(par_datetime=current_datetime, write_to_server=False, send_mail=False,
     par_datetime = handle_datetime(par_datetime)
     logfilename = generate_log_filename(program_start_time)
     logging.basicConfig(format='%(levelname)-8s [%(asctime)s] %(message)s', filename=logfilename, level=logging.DEBUG)
+    if emergency_mode:
+        logging.warning("-----------------EMERGENCY MODE IS ACTIVE!-----------------")
     try:
         excel_data = excel_tools.get_xlsfile_data(configs.res_filename)
         logging.debug(f"Data extracted from {configs.res_filename} successfully")
