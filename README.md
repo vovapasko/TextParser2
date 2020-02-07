@@ -9,3 +9,5 @@ start(par_datetime=program_start_time, write_to_server=False, send_mail=False, e
 ```
 
 If you just testing this function on your PC, you may leave the configuration of start function the same. It will take as a test data mock data in test/ directory 
+
+For more details, please refer to [wiki](https://github.com/vovapasko/TextParser2/wiki)
