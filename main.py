@@ -1,6 +1,6 @@
 import traceback
 from datetime import datetime, timedelta
-
+import sys
 import configs
 from exceptions import NoGoodValuesException
 from files_parser.global_parser import parse
@@ -14,10 +14,10 @@ from tools.tools import write_xml_to_file, handle_datetime, convert_to_utc, hand
 
 program_start_time = current_datetime = datetime.now()
 # please note that hour you typed below will be converted to utc
-custom_hour = 15  # will generate filenames for [custom_hour - 1; custom_hour]
-custom_year = 2020
-custom_month = 2
-custom_day = 26
+custom_hour = 20  # will generate filenames for [custom_hour - 1; custom_hour]
+custom_year = 2019
+custom_month = 7
+custom_day = 3
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 filenames = {}
 handled_data = []
@@ -91,5 +91,8 @@ def start(par_datetime=current_datetime, write_to_server=False, send_mail=False,
 
 
 if __name__ == '__main__':
+    run_emergency = False
+    if len(sys.argv) > 1 and sys.argv[1] == 'run_emergency':
+        run_emergency = True
     start(par_datetime=custom_datetime, write_to_server=False,
-          send_mail=False, emergency_mode=False)
+          send_mail=False, emergency_mode=run_emergency)
