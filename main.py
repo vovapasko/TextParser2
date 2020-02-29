@@ -2,6 +2,7 @@ import traceback
 from datetime import datetime, timedelta
 
 import configs
+from exceptions import NoGoodValuesException
 from files_parser.global_parser import parse
 from tools import excel_tools
 from tools.MailSender import MailSender
@@ -13,10 +14,10 @@ from tools.tools import write_xml_to_file, handle_datetime, convert_to_utc, hand
 
 program_start_time = current_datetime = datetime.now()
 # please note that hour you typed below will be converted to utc
-custom_hour = 20  # will generate filenames for [custom_hour - 1; custom_hour]
-custom_year = 2019
-custom_month = 7
-custom_day = 2
+custom_hour = 15  # will generate filenames for [custom_hour - 1; custom_hour]
+custom_year = 2020
+custom_month = 2
+custom_day = 26
 custom_datetime = datetime(custom_year, custom_month, custom_day, custom_hour, 0, 0)
 filenames = {}
 handled_data = []
@@ -44,14 +45,18 @@ def start(par_datetime=current_datetime, write_to_server=False, send_mail=False,
         filenames[provider_key] = (generate_filenames(provider_key, par_datetime))
     for provider_key, value in excel_data.items():
         tmp = parse(configs.path_to_files, filenames[provider_key], value, provider_key, emergency_mode)
-        if tmp is not None:
+        try:
+            good_values = tmp.get("good_values")
+            if len(good_values) == 0:
+                raise NoGoodValuesException
+
             handled_data.append(tmp["good_values"])
             handled_data_providers.append(provider_key)
             if len(tmp["high_one_interval_values"]) > 0:
                 one_interval_bad_values.append(tmp["high_one_interval_values"])
             if len(tmp["high_whole_interval_values"]) > 0:
                 whole_interval_bad_values.append(tmp["high_whole_interval_values"])
-        else:
+        except Exception:
             bad_providers.append(provider_key)
     if len(bad_providers) > 0:
         logging.warning(f"There is {len(bad_providers)} provider(s) which data program can't parse: ")

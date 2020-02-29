@@ -6,3 +6,6 @@ class NoSuchXmlFilesException(Exception):
 class NoSuchOneXmlFileException(Exception):
     """This exceptions occurs when there is one of files by given provider is absent"""
     pass
+
+class NoGoodValuesException(Exception):
+    pass
