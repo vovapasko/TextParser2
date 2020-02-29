@@ -53,6 +53,8 @@ def get_data_from_cred(key, subroot):
 
 
 def handle_mail_content(one_interval_bad_values, whole_interval_bad_values):
+    logging.debug("In handle_mail_content function")
+    logging.debug(whole_interval_bad_values)
     msg = ""
     for elements in one_interval_bad_values:
         for elem in elements:

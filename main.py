@@ -78,12 +78,16 @@ def start(par_datetime=current_datetime, write_to_server=False, send_mail=False,
             writer = ServerWriter()
             writer.write_to_sftp(filename)
         if send_mail and (len(one_interval_bad_values) > 0 or len(whole_interval_bad_values) > 0):
+            logging.debug("In send main condition")
             mailSender = MailSender()
+            logging.debug("Initialized Mail Sender")
             mailSender.set_subject(configs.mail_subject)
             content = handle_mail_content(one_interval_bad_values, whole_interval_bad_values)
             mailSender.set_content(content)
             mailSender.set_attachment([configs.logs_dir / logfilename])
+            logging.debug("Sending message")
             mailSender.send_message()
+            logging.debug("Message sent")
 
 
 if __name__ == '__main__':
