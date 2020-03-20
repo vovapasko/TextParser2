@@ -60,16 +60,14 @@ def handle_converted_xml_data(data_to_handle: dict, excel_data: dict, emergency_
     # handling data for the whole time
     handled_full_interval_dict = remove_empty_dicts(full_interval_dict["good_values"])
     full_interval_dict["good_values"] = find_mean_of_intervals(handled_full_interval_dict)
-    if not emergency_mode:
-        for key, value in list(full_interval_dict["good_values"].items()):
-            if not correct_whole_interval_value(value):
-                full_interval_dict["good_values"].pop(key, None)
-                warn_message = f"Final value {value} is is more than boundary value {boundary_whole_interval_value} on 1 hour interval"
-                full_interval_dict["high_whole_interval_values"].append(
-                    {"value": boundary_whole_interval_value, "index": key, "message": warn_message})
-                logging.warning(warn_message)
-                logging.warning(f"This value is in index - {key}")
-                logging.warning("This value won't be included in result xml file")
+    for key, value in list(full_interval_dict["good_values"].items()):
+        if not correct_whole_interval_value(value):
+            full_interval_dict["good_values"].pop(key, None)
+            warn_message = f"Final value {value} is is more than boundary value {boundary_whole_interval_value} on 1 hour interval"
+            full_interval_dict["high_whole_interval_values"].append(
+                {"value": boundary_whole_interval_value, "index": key, "message": warn_message})
+            logging.warning(warn_message)
+            logging.warning(f"This value is in index - {key}")
     logging.debug("In the end of handle_converted_xml_data function")
     return full_interval_dict
 
