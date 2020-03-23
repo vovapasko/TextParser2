@@ -95,4 +95,4 @@ if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == 'run_emergency':
         run_emergency = True
     start(par_datetime=custom_datetime, write_to_server=False,
-          send_mail=False, emergency_mode=True)
+          send_mail=False, emergency_mode=run_emergency)
